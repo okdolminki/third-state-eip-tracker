@@ -2321,6 +2321,20 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8013",
+      "title": "Static relative jumps and calls for the EVM",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Greg Colvin (@gcolvin), Alex Beregszaszi (@axic), Andrei Maiboroda (@gumb0), Paweł Bylica (@chfast)",
+      "created": "2025-08-19",
+      "requires": [
+        "7979"
+      ],
+      "fileName": "eip-8013.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8016",
       "title": "SSZ CompatibleUnion",
       "status": "Draft",
@@ -2844,8 +2858,7 @@
       "requires": [
         "1559",
         "2718",
-        "4844",
-        "7997"
+        "4844"
       ],
       "fileName": "eip-8141.md"
     },
@@ -7649,18 +7662,6 @@
     },
     {
       "proposalType": "ERC",
-      "number": "7794",
-      "title": "Grant Registry",
-      "status": "Draft",
-      "type": "Standards Track",
-      "category": "ERC",
-      "author": "Guilherme Neves (@0xneves)",
-      "created": "2024-10-22",
-      "requires": [],
-      "fileName": "erc-7794.md"
-    },
-    {
-      "proposalType": "ERC",
       "number": "7795",
       "title": "Wallet Call Token Capabilities",
       "status": "Draft",
@@ -7675,18 +7676,6 @@
         "5792"
       ],
       "fileName": "erc-7795.md"
-    },
-    {
-      "proposalType": "ERC",
-      "number": "7796",
-      "title": "Conditional send transaction RPC",
-      "status": "Draft",
-      "type": "Standards Track",
-      "category": "ERC",
-      "author": "Dror Tirosh (@drortirosh), Yoav Weiss (@yoavw), Alex Forshtat (@forshtat), Shahaf Nacson (@shahafn)",
-      "created": "2024-04-16",
-      "requires": [],
-      "fileName": "erc-7796.md"
     },
     {
       "proposalType": "ERC",
@@ -9292,5 +9281,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-04-30T00:41:41.034Z"
+  "fetchedAt": "2026-05-04T08:18:27.464Z"
 }
