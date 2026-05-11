@@ -407,18 +407,6 @@
     },
     {
       "proposalType": "EIP",
-      "number": "225",
-      "title": "Clique proof-of-authority consensus protocol",
-      "status": "Final",
-      "type": "Standards Track",
-      "category": "Core",
-      "author": "Péter Szilágyi <peterke@gmail.com>",
-      "created": "2017-03-06",
-      "requires": [],
-      "fileName": "eip-225.md"
-    },
-    {
-      "proposalType": "EIP",
       "number": "2255",
       "title": "Wallet Permissions System",
       "status": "Final",
@@ -2398,9 +2386,12 @@
       "created": "2025-10-01",
       "requires": [
         "2780",
+        "6780",
         "7702",
         "7825",
-        "8011"
+        "7976",
+        "7981",
+        "8038"
       ],
       "fileName": "eip-8037.md"
     },
@@ -2828,7 +2819,8 @@
       "created": "2025-01-21",
       "requires": [
         "7623",
-        "7702"
+        "7702",
+        "7976"
       ],
       "fileName": "eip-8131.md"
     },
@@ -2858,6 +2850,7 @@
       "requires": [
         "1559",
         "2718",
+        "3607",
         "4844"
       ],
       "fileName": "eip-8141.md"
@@ -3077,6 +3070,24 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8197",
+      "title": "Cryptographically Agile Transactions",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Danno Ferrin (@shemnon) <danno@tectonic.xyz>, Ron Kahat <ron@tectonic.xyz>",
+      "created": "2025-03-04",
+      "requires": [
+        "1559",
+        "2718",
+        "2930",
+        "4844",
+        "7702"
+      ],
+      "fileName": "eip-8197.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8198",
       "title": "Quick Slots",
       "status": "Draft",
@@ -3172,6 +3183,21 @@
         "7732"
       ],
       "fileName": "eip-8237.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8246",
+      "title": "Remove SELFDESTRUCT Burn",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Paweł Bylica (@chfast)",
+      "created": "2026-05-01",
+      "requires": [
+        "161",
+        "6780"
+      ],
+      "fileName": "eip-8246.md"
     },
     {
       "proposalType": "EIP",
@@ -3656,22 +3682,6 @@
     },
     {
       "proposalType": "ERC",
-      "number": "3475",
-      "title": "Abstract Storage Bonds",
-      "status": "Final",
-      "type": "Standards Track",
-      "category": "ERC",
-      "author": "Yu Liu (@yuliu-debond), Varun Deshpande (@dr-chain), Cedric Ngakam (@drikssy), Dhruv Malik (@dhruvmalik007), Samuel Gwlanold Edoumou (@Edoumou), Toufic Batrice (@toufic0710)",
-      "created": "2021-04-05",
-      "requires": [
-        "20",
-        "721",
-        "1155"
-      ],
-      "fileName": "erc-3475.md"
-    },
-    {
-      "proposalType": "ERC",
       "number": "3525",
       "title": "Semi-Fungible Token",
       "status": "Final",
@@ -3700,18 +3710,6 @@
         "173"
       ],
       "fileName": "erc-3643.md"
-    },
-    {
-      "proposalType": "ERC",
-      "number": "3668",
-      "title": "CCIP Read—Secure offchain data retrieval",
-      "status": "Final",
-      "type": "Standards Track",
-      "category": "ERC",
-      "author": "Nick Johnson (@arachnid)",
-      "created": "2020-07-19",
-      "requires": [],
-      "fileName": "erc-3668.md"
     },
     {
       "proposalType": "ERC",
@@ -6664,22 +6662,6 @@
     },
     {
       "proposalType": "ERC",
-      "number": "7590",
-      "title": "ERC-20 Holder Extension for NFTs",
-      "status": "Review",
-      "type": "Standards Track",
-      "category": "ERC",
-      "author": "Steven Pineda (@steven2308), Jan Turk (@ThunderDeliverer)",
-      "created": "2024-01-05",
-      "requires": [
-        "20",
-        "165",
-        "721"
-      ],
-      "fileName": "erc-7590.md"
-    },
-    {
-      "proposalType": "ERC",
       "number": "7595",
       "title": "Collateralized NFT",
       "status": "Draft",
@@ -6780,21 +6762,6 @@
       "created": "2024-02-03",
       "requires": [],
       "fileName": "erc-7615.md"
-    },
-    {
-      "proposalType": "ERC",
-      "number": "7617",
-      "title": "Chunk support for ERC-5219 mode in Web3 URL",
-      "status": "Draft",
-      "type": "Standards Track",
-      "category": "ERC",
-      "author": "Qi Zhou (@qizhou), Nicolas Deschildre (@nand2)",
-      "created": "2024-02-08",
-      "requires": [
-        "5219",
-        "6944"
-      ],
-      "fileName": "erc-7617.md"
     },
     {
       "proposalType": "ERC",
@@ -7662,6 +7629,18 @@
     },
     {
       "proposalType": "ERC",
+      "number": "7794",
+      "title": "Grant Registry",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Guilherme Neves (@0xneves)",
+      "created": "2024-10-22",
+      "requires": [],
+      "fileName": "erc-7794.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "7795",
       "title": "Wallet Call Token Capabilities",
       "status": "Draft",
@@ -7676,6 +7655,18 @@
         "5792"
       ],
       "fileName": "erc-7795.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "7796",
+      "title": "Conditional send transaction RPC",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Dror Tirosh (@drortirosh), Yoav Weiss (@yoavw), Alex Forshtat (@forshtat), Shahaf Nacson (@shahafn)",
+      "created": "2024-04-16",
+      "requires": [],
+      "fileName": "erc-7796.md"
     },
     {
       "proposalType": "ERC",
@@ -8245,7 +8236,7 @@
       "proposalType": "ERC",
       "number": "7943",
       "title": "uRWA - Universal Real World Asset Interface",
-      "status": "Last Call",
+      "status": "Final",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Dario Lo Buglio (@xaler5), Tino Martinez Molina (@tinom9), Mihai Colceriu (@mihaic195)",
@@ -8923,10 +8914,10 @@
       "proposalType": "ERC",
       "number": "8152",
       "title": "Content-Addressable Logic Modules (CALM)",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
-      "author": "Radek Svarz (@radeksvarz), Nick Mudge (@mudgen)",
+      "author": "Radek Svarz (@radeksvarz), Nick Mudge (@mudgen), William Morriss (@wjmelements)",
       "created": "2026-01-18",
       "requires": [],
       "fileName": "erc-8152.md"
@@ -9035,6 +9026,21 @@
         "214"
       ],
       "fileName": "erc-820.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8255",
+      "title": "Expiring Token Approvals",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Moody Salem (@moodysalem) <moody.salem@gmail.com>",
+      "created": "2026-05-06",
+      "requires": [
+        "20",
+        "2612"
+      ],
+      "fileName": "erc-8255.md"
     },
     {
       "proposalType": "ERC",
@@ -9281,5 +9287,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-05-04T08:18:27.464Z"
+  "fetchedAt": "2026-05-11T08:18:27.729Z"
 }
