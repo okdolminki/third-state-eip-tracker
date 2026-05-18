@@ -407,6 +407,18 @@
     },
     {
       "proposalType": "EIP",
+      "number": "225",
+      "title": "Clique proof-of-authority consensus protocol",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Péter Szilágyi <peterke@gmail.com>",
+      "created": "2017-03-06",
+      "requires": [],
+      "fileName": "eip-225.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "2255",
       "title": "Wallet Permissions System",
       "status": "Final",
@@ -1523,7 +1535,7 @@
     {
       "proposalType": "EIP",
       "number": "7708",
-      "title": "ETH transfers and burns emit a log",
+      "title": "ETH transfers emit a log",
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
@@ -1532,7 +1544,8 @@
       "requires": [
         "1559",
         "4788",
-        "6780"
+        "6780",
+        "8246"
       ],
       "fileName": "eip-7708.md"
     },
@@ -1799,7 +1812,7 @@
     {
       "proposalType": "EIP",
       "number": "7851",
-      "title": "Deactivate a Delegated EOA's Key",
+      "title": "Code-Controlled EOA Delegation",
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
@@ -2387,8 +2400,11 @@
       "requires": [
         "2780",
         "6780",
+        "7623",
         "7702",
         "7825",
+        "7904",
+        "7928",
         "7976",
         "7981",
         "8038"
@@ -2404,7 +2420,10 @@
       "category": "Core",
       "author": "Maria Silva (@misilva73), Wei Han Ng (@weiihann), Ansgar Dietrichs (@adietrichs)",
       "created": "2025-10-03",
-      "requires": [],
+      "requires": [
+        "7904",
+        "8037"
+      ],
       "fileName": "eip-8038.md"
     },
     {
@@ -2845,13 +2864,15 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Vitalik Buterin (@vbuterin), lightclient (@lightclient), Felix Lange (@fjl), Yoav Weiss (@yoavw), Alex Forshtat (@forshtat), Dror Tirosh (@drortirosh), Shahaf Nacson (@shahafn), Derek Chiang (@derekchiang)",
+      "author": "Vitalik Buterin (@vbuterin), lightclient (@lightclient), Felix Lange (@fjl), Yoav Weiss (@yoavw), Alex Forshtat (@forshtat), Dror Tirosh (@drortirosh), Shahaf Nacson (@shahafn), Derek Chiang (@derekchiang), Toni Wahrstätter (@nerolation)",
       "created": "2026-01-29",
       "requires": [
         "1559",
         "2718",
         "3607",
-        "4844"
+        "4844",
+        "7623",
+        "7702"
       ],
       "fileName": "eip-8141.md"
     },
@@ -2921,7 +2942,7 @@
     {
       "proposalType": "EIP",
       "number": "8151",
-      "title": "Private Key Deactivation Aware ecRecover",
+      "title": "ECDSA Authority Deactivation Aware ecRecover",
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
@@ -3198,6 +3219,20 @@
         "6780"
       ],
       "fileName": "eip-8246.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8250",
+      "title": "Keyed Nonces for Frame Transactions",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Thomas Thiery (@soispoke), Toni Wahrstätter (@nerolation), lightclient (@lightclient), Vitalik Buterin (@vbuterin)",
+      "created": "2026-04-16",
+      "requires": [
+        "8141"
+      ],
+      "fileName": "eip-8250.md"
     },
     {
       "proposalType": "EIP",
@@ -3682,6 +3717,22 @@
     },
     {
       "proposalType": "ERC",
+      "number": "3475",
+      "title": "Abstract Storage Bonds",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Yu Liu (@yuliu-debond), Varun Deshpande (@dr-chain), Cedric Ngakam (@drikssy), Dhruv Malik (@dhruvmalik007), Samuel Gwlanold Edoumou (@Edoumou), Toufic Batrice (@toufic0710)",
+      "created": "2021-04-05",
+      "requires": [
+        "20",
+        "721",
+        "1155"
+      ],
+      "fileName": "erc-3475.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "3525",
       "title": "Semi-Fungible Token",
       "status": "Final",
@@ -3713,6 +3764,18 @@
     },
     {
       "proposalType": "ERC",
+      "number": "3668",
+      "title": "CCIP Read—Secure offchain data retrieval",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Nick Johnson (@arachnid)",
+      "created": "2020-07-19",
+      "requires": [],
+      "fileName": "erc-3668.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "3770",
       "title": "Chain-specific addresses",
       "status": "Draft",
@@ -3727,13 +3790,14 @@
       "proposalType": "ERC",
       "number": "4337",
       "title": "Account Abstraction Using Alt Mempool",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Vitalik Buterin (@vbuterin), Yoav Weiss (@yoavw), Dror Tirosh (@drortirosh), Shahaf Nacson (@shahafn), Alex Forshtat (@forshtat), Kristof Gazso (@kristofgazso), Tjaden Hess (@tjade273)",
       "created": "2021-09-29",
       "requires": [
-        "712"
+        "712",
+        "7702"
       ],
       "fileName": "erc-4337.md"
     },
@@ -6662,6 +6726,22 @@
     },
     {
       "proposalType": "ERC",
+      "number": "7590",
+      "title": "ERC-20 Holder Extension for NFTs",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Steven Pineda (@steven2308), Jan Turk (@ThunderDeliverer)",
+      "created": "2024-01-05",
+      "requires": [
+        "20",
+        "165",
+        "721"
+      ],
+      "fileName": "erc-7590.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "7595",
       "title": "Collateralized NFT",
       "status": "Draft",
@@ -6762,6 +6842,21 @@
       "created": "2024-02-03",
       "requires": [],
       "fileName": "erc-7615.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "7617",
+      "title": "Chunk support for ERC-5219 mode in Web3 URL",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Qi Zhou (@qizhou), Nicolas Deschildre (@nand2)",
+      "created": "2024-02-08",
+      "requires": [
+        "5219",
+        "6944"
+      ],
+      "fileName": "erc-7617.md"
     },
     {
       "proposalType": "ERC",
@@ -7102,9 +7197,11 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "ERC",
-      "author": "Mark Toda (@marktoda), Matt Rice (@mrice32), Nick Pai (@nicholaspai)",
+      "author": "Francisco Giordano (@frangio), Mark Toda (@marktoda), Matt Rice (@mrice32), Nick Pai (@nicholaspai), Alexander Lindgren (@reednaa), Mark Gretzke (@mgretzke), Chris Cashwell (@ccashwell)",
       "created": "2024-04-11",
-      "requires": [],
+      "requires": [
+        "7930"
+      ],
       "fileName": "erc-7683.md"
     },
     {
@@ -8881,7 +8978,7 @@
       "proposalType": "ERC",
       "number": "8126",
       "title": "AI Agent Verification",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Leigh Cronian (@cybercentry) <leigh.cronian@cybercentry.co.uk>, Chris Johnson <chris@virtuals.io>",
@@ -9026,6 +9123,20 @@
         "214"
       ],
       "fileName": "erc-820.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8226",
+      "title": "Regulated Agent Mandate",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Ludovico Rossi (@ludovicor-eth) <ludovico@brickken.com>, Dario Lo Buglio (@xaler5) <dario@brickken.com>, Thamer Dridi (@thamerdridi) <thamer@brickken.com>, Nabil El Alami Khalifi (@nabil-brickken) <nabil@brickken.com>",
+      "created": "2026-04-12",
+      "requires": [
+        "165"
+      ],
+      "fileName": "erc-8226.md"
     },
     {
       "proposalType": "ERC",
@@ -9287,5 +9398,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-05-11T08:18:27.729Z"
+  "fetchedAt": "2026-05-18T08:18:27.583Z"
 }
