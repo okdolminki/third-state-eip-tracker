@@ -1488,12 +1488,8 @@
       "author": "Etan Kissling (@etan-status), Cayman (@wemeetagain)",
       "created": "2024-04-15",
       "requires": [
-        "6110",
-        "7002",
-        "7251",
         "7495",
-        "7549",
-        "7569",
+        "7607",
         "7916"
       ],
       "fileName": "eip-7688.md"
@@ -2585,7 +2581,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Networking",
-      "author": "Raúl Kripalani (@raulk), Bosul Mun (@healthykim), Francesco D'Amato (@fradamt), Csaba Kiraly (@cskiraly), Felix Lange (@fjl), Marios Ioannou (@mariosioannou-create), Alex Stokes (@ralexstokes)",
+      "author": "Raúl Kripalani (@raulk), Bosul Mun (@healthykim), Francesco D'Amato (@fradamt), Csaba Kiraly (@cskiraly), Felix Lange (@fjl), Marios Ioannou (@mariosioannou-create), Alex Stokes (@ralexstokes), Kamil Salakhiev (@kamilsa)",
       "created": "2025-10-29",
       "requires": [
         "4844",
@@ -2972,7 +2968,7 @@
       "proposalType": "EIP",
       "number": "8163",
       "title": "Reserve `EXTENSION (0xae)` opcode",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Bruce Collie (@Baltoli), Piotr Dobaczewski (@pdobacz)",
@@ -3209,7 +3205,7 @@
       "proposalType": "EIP",
       "number": "8246",
       "title": "Remove SELFDESTRUCT Burn",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Paweł Bylica (@chfast)",
@@ -3233,6 +3229,79 @@
         "8141"
       ],
       "fileName": "eip-8250.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8253",
+      "title": "Bump nonce of zero-nonce storage accounts",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Jochem Brouwer (@jochem-brouwer)",
+      "created": "2026-05-05",
+      "requires": [
+        "161",
+        "684"
+      ],
+      "fileName": "eip-8253.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8254",
+      "title": "Cap Deposit Requests Per Block",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "pk910 (@pk910), Barnabas Busa (@barnabasbusa)",
+      "created": "2026-05-06",
+      "requires": [
+        "6110"
+      ],
+      "fileName": "eip-8254.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8261",
+      "title": "Gas Limit Schedule",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Barnabas Busa (@barnabasbusa)",
+      "created": "2026-05-11",
+      "requires": [
+        "1559",
+        "7840",
+        "7892"
+      ],
+      "fileName": "eip-8261.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8266",
+      "title": "Expiring Nonces for Frame Transactions",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Toni Wahrstätter (@nerolation), lightclient (@lightclient)",
+      "created": "2026-05-15",
+      "requires": [
+        "8141"
+      ],
+      "fileName": "eip-8266.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8268",
+      "title": "Storage Roots in Block Access Lists",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Toni Wahrstätter (@nerolation), Carlos Perez (@CPerezz)",
+      "created": "2026-05-21",
+      "requires": [
+        "7928"
+      ],
+      "fileName": "eip-8268.md"
     },
     {
       "proposalType": "EIP",
@@ -9062,6 +9131,35 @@
     },
     {
       "proposalType": "ERC",
+      "number": "8179",
+      "title": "Blob Space Segments",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Vitalik Buterin (@vbuterin), Skeletor Spaceman (@skeletor-spaceman)",
+      "created": "2026-02-08",
+      "requires": [
+        "4844"
+      ],
+      "fileName": "erc-8179.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8180",
+      "title": "Blob Authenticated Messaging",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Vitalik Buterin (@vbuterin), Skeletor Spaceman (@skeletor-spaceman)",
+      "created": "2026-02-21",
+      "requires": [
+        "4844",
+        "8179"
+      ],
+      "fileName": "erc-8180.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "8183",
       "title": "Agentic Commerce",
       "status": "Draft",
@@ -9152,6 +9250,23 @@
         "2612"
       ],
       "fileName": "erc-8255.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8257",
+      "title": "Agent Tool Registry",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Cody Sears (@CodySearsOS), Ryan Ghods (@ryanio)",
+      "created": "2026-04-17",
+      "requires": [
+        "150",
+        "165",
+        "712",
+        "1967"
+      ],
+      "fileName": "erc-8257.md"
     },
     {
       "proposalType": "ERC",
@@ -9398,5 +9513,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-05-18T08:18:27.583Z"
+  "fetchedAt": "2026-05-25T08:18:27.766Z"
 }
