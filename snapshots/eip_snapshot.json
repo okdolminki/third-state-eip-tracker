@@ -2220,7 +2220,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Greg Colvin (@gcolvin), Martin Holst Swende (@holiman), Brooklyn Zelenka (@expede), John Max Skaller <skaller@internode.on.net>",
+      "author": "Greg Colvin <greg@colvin.org>, Martin Holst Swende (@holiman), Brooklyn Zelenka (@expede), John Max Skaller <skaller@internode.on.net>",
       "created": "2025-12-17",
       "requires": [
         "3541"
@@ -6660,6 +6660,22 @@
     },
     {
       "proposalType": "ERC",
+      "number": "7574",
+      "title": "Authentication SBT using Credential",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Geunyoung Kim (@c1ick), JaeCheol Ryou <jcryou@home.cnu.ac.kr>",
+      "created": "2023-11-02",
+      "requires": [
+        "165",
+        "721",
+        "5192"
+      ],
+      "fileName": "erc-7574.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "7575",
       "title": "Multi-Asset ERC-4626 Vaults",
       "status": "Final",
@@ -8775,6 +8791,22 @@
     },
     {
       "proposalType": "ERC",
+      "number": "8040",
+      "title": "ESG Tokenization Protocol",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Leandro Lemos (@agronetlabs) <leandro@agronet.io>",
+      "created": "2025-09-06",
+      "requires": [
+        "20",
+        "721",
+        "1155"
+      ],
+      "fileName": "erc-8040.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "8041",
       "title": "Fixed-Supply Agent NFT Collections",
       "status": "Draft",
@@ -8892,6 +8924,45 @@
         "712"
       ],
       "fileName": "erc-8074.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8084",
+      "title": "Zero-knowledge proof metadata",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "cococay (@zwowo1997)",
+      "created": "2025-11-10",
+      "requires": [],
+      "fileName": "erc-8084.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8085",
+      "title": "Dual-Mode Fungible Tokens",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Rowan (@0xRowan)",
+      "created": "2025-11-15",
+      "requires": [
+        "20",
+        "8086"
+      ],
+      "fileName": "erc-8085.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8086",
+      "title": "Privacy Token",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Rowan (@0xRowan)",
+      "created": "2025-11-19",
+      "requires": [],
+      "fileName": "erc-8086.md"
     },
     {
       "proposalType": "ERC",
@@ -9513,5 +9584,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-05-25T08:18:27.766Z"
+  "fetchedAt": "2026-06-01T08:18:27.886Z"
 }
