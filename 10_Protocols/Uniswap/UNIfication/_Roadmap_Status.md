@@ -1,12 +1,12 @@
 ---
-updated: "2026-06-01 15:14"
+updated: "2026-06-02 05:31"
 note_type: roadmap_master_status
 auto_generated: true
 ---
 
 # Uniswap UNIfication Roadmap — 현재 상태
 
-> 자동 생성. 최종 업데이트: 2026-06-01 15:14 KST
+> 자동 생성. 최종 업데이트: 2026-06-02 05:31 KST
 
 
 ## Fees
