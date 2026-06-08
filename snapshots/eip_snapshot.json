@@ -1719,11 +1719,9 @@
       "author": "Etan Kissling (@etan-status), Gajinder Singh (@g11tech)",
       "created": "2024-10-28",
       "requires": [
-        "6404",
-        "6465",
-        "6466",
         "7495",
-        "7799"
+        "7773",
+        "7916"
       ],
       "fileName": "eip-7807.md"
     },
@@ -2391,7 +2389,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Maria Silva (@misilva73), Carlos Perez (@CPerezz), Jochem Brouwer (@jochem-brouwer), Ansgar Dietrichs (@adietrichs), Łukasz Rozmej (@LukaszRozmej), Anders Elowsson (@anderselowsson), Francesco D'Amato (@fradamt)",
+      "author": "Maria Silva (@misilva73), Carlos Perez (@CPerezz), Jochem Brouwer (@jochem-brouwer), Ansgar Dietrichs (@adietrichs), Łukasz Rozmej (@LukaszRozmej), Anders Elowsson (@anderselowsson), Francesco D'Amato (@fradamt), Dragan Rakita (@rakita)",
       "created": "2025-10-01",
       "requires": [
         "2780",
@@ -2819,6 +2817,7 @@
       "author": "Chris Hunter (@chunter-cb) <chris.hunter@coinbase.com>",
       "created": "2025-10-14",
       "requires": [
+        "170",
         "2718"
       ],
       "fileName": "eip-8130.md"
@@ -2916,8 +2915,7 @@
       "created": "2026-02-05",
       "requires": [
         "7251",
-        "7685",
-        "7732"
+        "7685"
       ],
       "fileName": "eip-8148.md"
     },
@@ -3302,6 +3300,21 @@
         "7928"
       ],
       "fileName": "eip-8268.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8272",
+      "title": "Recent Roots for Frame Transactions",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Thomas Thiery (@soispoke), Vitalik Buterin (@vbuterin), Toni Wahrstätter (@nerolation)",
+      "created": "2026-05-15",
+      "requires": [
+        "7843",
+        "8141"
+      ],
+      "fileName": "eip-8272.md"
     },
     {
       "proposalType": "EIP",
@@ -3859,7 +3872,7 @@
       "proposalType": "ERC",
       "number": "4337",
       "title": "Account Abstraction Using Alt Mempool",
-      "status": "Last Call",
+      "status": "Final",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Vitalik Buterin (@vbuterin), Yoav Weiss (@yoavw), Dror Tirosh (@drortirosh), Shahaf Nacson (@shahafn), Alex Forshtat (@forshtat), Kristof Gazso (@kristofgazso), Tjaden Hess (@tjade273)",
@@ -7640,21 +7653,6 @@
     },
     {
       "proposalType": "ERC",
-      "number": "7766",
-      "title": "Signature Aggregation for ERC-4337",
-      "status": "Draft",
-      "type": "Standards Track",
-      "category": "ERC",
-      "author": "Vitalik Buterin (@vbuterin), Yoav Weiss (@yoavw), Dror Tirosh (@drortirosh), Shahaf Nacson (@shahafn), Alex Forshtat (@forshtat)",
-      "created": "2024-09-01",
-      "requires": [
-        "4337",
-        "7562"
-      ],
-      "fileName": "erc-7766.md"
-    },
-    {
-      "proposalType": "ERC",
       "number": "7769",
       "title": "JSON-RPC API for ERC-4337",
       "status": "Draft",
@@ -7842,7 +7840,7 @@
       "proposalType": "ERC",
       "number": "7796",
       "title": "Conditional send transaction RPC",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Dror Tirosh (@drortirosh), Yoav Weiss (@yoavw), Alex Forshtat (@forshtat), Shahaf Nacson (@shahafn)",
@@ -7926,7 +7924,7 @@
       "proposalType": "ERC",
       "number": "7813",
       "title": "Store, Table-Based Introspectable Storage",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "ERC",
       "author": "alvarius (@alvrs), dk1a (@dk1a), frolic (@frolic), ludens (@ludns), vdrg (@vdrg), yonada <yonada@proton.me>",
@@ -8865,6 +8863,20 @@
     },
     {
       "proposalType": "ERC",
+      "number": "8054",
+      "title": "Forkable ERC-20 Token",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Kevin (@kevzzsk), Fuxing (@fuxingloh)",
+      "created": "2025-10-10",
+      "requires": [
+        "20"
+      ],
+      "fileName": "erc-8054.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "8056",
       "title": "Scaled UI Amount Extension for ERC-20 Tokens",
       "status": "Draft",
@@ -8980,6 +8992,20 @@
         "7930"
       ],
       "fileName": "erc-8092.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8100",
+      "title": "Representable Contract State",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Christian Fries (@cfries), Peter Kohl-Landgraf (@pekola)",
+      "created": "2025-12-01",
+      "requires": [
+        "155"
+      ],
+      "fileName": "erc-8100.md"
     },
     {
       "proposalType": "ERC",
@@ -9118,7 +9144,7 @@
       "proposalType": "ERC",
       "number": "8126",
       "title": "AI Agent Verification",
-      "status": "Last Call",
+      "status": "Final",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Leigh Cronian (@cybercentry) <leigh.cronian@cybercentry.co.uk>, Chris Johnson <chris@virtuals.io>",
@@ -9177,7 +9203,7 @@
       "proposalType": "ERC",
       "number": "8161",
       "title": "Transferable Tokenized Vault Requests",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Cain O'Sullivan (@cosullivan), Jeroen Offerijns (@hieronx)",
@@ -9292,6 +9318,20 @@
         "214"
       ],
       "fileName": "erc-820.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8217",
+      "title": "Agent NFT Identity Bindings",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Prem Makeig (@nxt3d)",
+      "created": "2026-04-05",
+      "requires": [
+        "8004"
+      ],
+      "fileName": "erc-8217.md"
     },
     {
       "proposalType": "ERC",
@@ -9584,5 +9624,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-06-01T08:18:27.886Z"
+  "fetchedAt": "2026-06-08T08:18:28.054Z"
 }
