@@ -1897,20 +1897,6 @@
     },
     {
       "proposalType": "EIP",
-      "number": "7904",
-      "title": "Compute Gas Cost Increase",
-      "status": "Draft",
-      "type": "Standards Track",
-      "category": "Core",
-      "author": "Jacek Glen (@JacekGlen), Lukasz Glen (@lukasz-glen), Maria Silva (@misilva73)",
-      "created": "2025-02-05",
-      "requires": [
-        "7883"
-      ],
-      "fileName": "eip-7904.md"
-    },
-    {
-      "proposalType": "EIP",
       "number": "7906",
       "title": "Transaction Assertions via State Diff Opcode",
       "status": "Draft",
@@ -2244,14 +2230,13 @@
     {
       "proposalType": "EIP",
       "number": "7997",
-      "title": "Deterministic Factory Predeploy",
+      "title": "Deterministic Factory Contract",
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Francisco Giordano (@frangio)",
+      "author": "Francisco Giordano (@frangio), Toni Wahrstätter (@nerolation), Nick Johnson (@Arachnid)",
       "created": "2025-08-03",
       "requires": [
-        "211",
         "1014"
       ],
       "fileName": "eip-7997.md"
@@ -3056,15 +3041,13 @@
     {
       "proposalType": "EIP",
       "number": "8188",
-      "title": "State Tiering by Write Age",
+      "title": "Last-Written Block for Accounts and Slots",
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Wei Han Ng (@weiihann), Amirul Ashraf (@asdacap), Guillaume Ballet (@gballet), Maria Silva (@misilva73), Gary Rong (@rjl493456442)",
+      "author": "Wei Han Ng (@weiihann), Amirul Ashraf (@asdacap), Guillaume Ballet (@gballet), Maria Silva (@misilva73), Gary Rong (@rjl493456442), Carlos Perez (@CPerezz), Jochem Brouwer (@jochem-brouwer)",
       "created": "2026-03-10",
       "requires": [
-        "2929",
-        "2930",
         "8037"
       ],
       "fileName": "eip-8188.md"
@@ -3256,6 +3239,26 @@
         "6110"
       ],
       "fileName": "eip-8254.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8256",
+      "title": "Blob Streaming",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Marios (@mariosioannou-create), Bharath (@bharath-123), Francesco D'Amato (@fradamt), Julian Ma (@ma-julian), Raúl Kripalani (@raulk), Bosul Mun (@healthykim), Csaba Kiraly (@cskiraly), Anders Elowsson (@anderselowsson)",
+      "created": "2026-05-06",
+      "requires": [
+        "2935",
+        "4788",
+        "4844",
+        "7002",
+        "7594",
+        "7732",
+        "7918"
+      ],
+      "fileName": "eip-8256.md"
     },
     {
       "proposalType": "EIP",
@@ -3470,6 +3473,22 @@
       "created": "2016-04-04",
       "requires": [],
       "fileName": "erc-137.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "1450",
+      "title": "RTA-Controlled Security Token",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Howard Marks (@howardmarks) <howard@startengine.com>, Devender Gollapally (@devender-startengine) <devender@startengine.com>, Joe Mathews (@se-joe) <joe@startengine.com>, Jordan Jahja (@jordan-jahja) <jordan.jahja@startengine.com>, John Shiple (@johnshiple), David Zhang (@david-colab) <david@startengine.com>",
+      "created": "2018-09-25",
+      "requires": [
+        "20",
+        "165",
+        "6093"
+      ],
+      "fileName": "erc-1450.md"
     },
     {
       "proposalType": "ERC",
@@ -8835,6 +8854,22 @@
     },
     {
       "proposalType": "ERC",
+      "number": "8047",
+      "title": "Forensic Token (Forest)",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Sirawit Techavanitch (@MASDXI) <sirawit_tec@live4.utcc.ac.th>, Supache Innet <supachate_inn@utcc.ac.th>",
+      "created": "2025-10-15",
+      "requires": [
+        "165",
+        "1155",
+        "5615"
+      ],
+      "fileName": "erc-8047.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "8048",
       "title": "Onchain Metadata for Token Registries",
       "status": "Draft",
@@ -9381,6 +9416,33 @@
     },
     {
       "proposalType": "ERC",
+      "number": "8273",
+      "title": "Attestation-Gated Agentic Actions",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Yunan Li, Qingzhi Zha (@rickzha610), Xianrui Qin (@xrqin), Vitto Rivabella (@eversmile12)",
+      "created": "2025-05-26",
+      "requires": [
+        "165",
+        "1153"
+      ],
+      "fileName": "erc-8273.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8290",
+      "title": "Shielded Note Teleportation",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "georgeh (@geovgy)",
+      "created": "2026-06-05",
+      "requires": [],
+      "fileName": "erc-8290.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "838",
       "title": "ABI specification for REVERT reason string",
       "status": "Draft",
@@ -9624,5 +9686,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-06-08T08:18:28.054Z"
+  "fetchedAt": "2026-06-15T08:18:27.199Z"
 }
