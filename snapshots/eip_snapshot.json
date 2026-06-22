@@ -576,18 +576,24 @@
     {
       "proposalType": "EIP",
       "number": "2780",
-      "title": "Reduce intrinsic transaction gas",
+      "title": "Resource-based intrinsic transaction gas",
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
       "author": "Matt Garnett (@lightclient), Uri Klarman (@uriklarman), Ben Adams (@benaadams), Maria Inês Silva (@misilva73), Anders Elowsson (@anderselowsson), Anthony Sassano (@sassal)",
       "created": "2020-07-11",
       "requires": [
-        "1559",
+        "161",
         "2718",
         "2929",
         "2930",
-        "7708"
+        "6780",
+        "7702",
+        "7708",
+        "7904",
+        "7928",
+        "8037",
+        "8038"
       ],
       "fileName": "eip-2780.md"
     },
@@ -2204,7 +2210,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Greg Colvin <greg@colvin.org>, Martin Holst Swende (@holiman), Brooklyn Zelenka (@expede), John Max Skaller <skaller@internode.on.net>",
+      "author": "Greg Colvin (@gcolvin) <greg@colvin.org>, Martin Holst Swende (@holiman), Brooklyn Zelenka (@expede), John Max Skaller",
       "created": "2025-12-17",
       "requires": [
         "3541"
@@ -2810,16 +2816,19 @@
     {
       "proposalType": "EIP",
       "number": "8131",
-      "title": "Add Auth Data to EIP-7623 Floor",
+      "title": "Unified Transaction Content Floor",
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
       "author": "Toni Wahrstätter (@nerolation)",
       "created": "2025-01-21",
       "requires": [
+        "2028",
+        "4844",
         "7623",
         "7702",
-        "7976"
+        "7976",
+        "7981"
       ],
       "fileName": "eip-8131.md"
     },
@@ -3318,6 +3327,25 @@
         "8141"
       ],
       "fileName": "eip-8272.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8279",
+      "title": "Block Access List Byte Floor",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Toni Wahrstätter (@nerolation)",
+      "created": "2026-05-23",
+      "requires": [
+        "7623",
+        "7702",
+        "7928",
+        "7976",
+        "7981",
+        "8131"
+      ],
+      "fileName": "eip-8279.md"
     },
     {
       "proposalType": "EIP",
@@ -9035,7 +9063,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "ERC",
-      "author": "Christian Fries (@cfries), Peter Kohl-Landgraf (@pekola)",
+      "author": "Christian Fries (@cfries), Peter Kohl-Landgraf (@pekola), Raphael Prandtl (@RKP1101)",
       "created": "2025-12-01",
       "requires": [
         "155"
@@ -9308,10 +9336,10 @@
       "proposalType": "ERC",
       "number": "8196",
       "title": "AI Agent Authenticated Wallet",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
-      "author": "Leigh Cronian (@cybercentry) <leigh.cronian@cybercentry.co.uk>",
+      "author": "Leigh Cronian (@cybercentry) <leigh.cronian@cybercentry.co.uk>, Chris Johnson <chris@virtuals.io>",
       "created": "2026-03-14",
       "requires": [
         "155",
@@ -9686,5 +9714,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-06-15T08:18:27.199Z"
+  "fetchedAt": "2026-06-22T08:18:27.802Z"
 }
