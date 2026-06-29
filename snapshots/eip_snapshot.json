@@ -347,18 +347,6 @@
     },
     {
       "proposalType": "EIP",
-      "number": "211",
-      "title": "New opcodes: RETURNDATASIZE and RETURNDATACOPY",
-      "status": "Final",
-      "type": "Standards Track",
-      "category": "Core",
-      "author": "Christian Reitwiessner <chris@ethereum.org>",
-      "created": "2017-02-13",
-      "requires": [],
-      "fileName": "eip-211.md"
-    },
-    {
-      "proposalType": "EIP",
       "number": "2124",
       "title": "Fork identifier for chain compatibility checks",
       "status": "Final",
@@ -583,11 +571,12 @@
       "author": "Matt Garnett (@lightclient), Uri Klarman (@uriklarman), Ben Adams (@benaadams), Maria Inês Silva (@misilva73), Anders Elowsson (@anderselowsson), Anthony Sassano (@sassal)",
       "created": "2020-07-11",
       "requires": [
-        "161",
         "2718",
         "2929",
         "2930",
         "6780",
+        "7523",
+        "7623",
         "7702",
         "7708",
         "7904",
@@ -1908,9 +1897,11 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Alex Forshtat (@forshtat), Shahaf Nacson (@shahafn), Dror Tirosh (@drortirosh), Yoav Weiss (@yoavw)",
+      "author": "Alex Forshtat (@forshtat), Shahaf Nacson (@shahafn), Dror Tirosh (@drortirosh), Yoav Weiss (@yoavw), Fredrik Svantes (@fredrik0x)",
       "created": "2025-02-21",
-      "requires": [],
+      "requires": [
+        "8141"
+      ],
       "fileName": "eip-7906.md"
     },
     {
@@ -3179,6 +3170,21 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8222",
+      "title": "Lean Staking",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Mohammad Jahanara (@mmjahanara), Pierre Daix-Moreux (@dmpierre)",
+      "created": "2026-04-09",
+      "requires": [
+        "6110",
+        "7251"
+      ],
+      "fileName": "eip-8222.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8237",
       "title": "Independent CL/EL Sync",
       "status": "Draft",
@@ -3506,7 +3512,7 @@
       "proposalType": "ERC",
       "number": "1450",
       "title": "RTA-Controlled Security Token",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Howard Marks (@howardmarks) <howard@startengine.com>, Devender Gollapally (@devender-startengine) <devender@startengine.com>, Joe Mathews (@se-joe) <joe@startengine.com>, Jordan Jahja (@jordan-jahja) <jordan.jahja@startengine.com>, John Shiple (@johnshiple), David Zhang (@david-colab) <david@startengine.com>",
@@ -4550,7 +4556,7 @@
       "proposalType": "ERC",
       "number": "5516",
       "title": "Soulbound Multi-owner Tokens",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Lucas Martín Grasso Ramos (@LucasGrasso), Matias Arazi (@MatiArazi)",
@@ -8906,7 +8912,9 @@
       "author": "Prem Makeig (@nxt3d), Rafael Abuawad (@rafael-abuawad)",
       "created": "2025-09-30",
       "requires": [
-        "165"
+        "165",
+        "7930",
+        "8119"
       ],
       "fileName": "erc-8048.md"
     },
@@ -9310,7 +9318,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "ERC",
-      "author": "Vitalik Buterin (@vbuterin), Skeletor Spaceman (@skeletor-spaceman)",
+      "author": "Vitalik Buterin (@vbuterin), Skeletor Spaceman (@skeletor-spaceman), Orca (@0xrcinus)",
       "created": "2026-02-21",
       "requires": [
         "4844",
@@ -9714,5 +9722,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-06-22T08:18:27.802Z"
+  "fetchedAt": "2026-06-29T08:18:27.218Z"
 }
