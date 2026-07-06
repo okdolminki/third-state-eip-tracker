@@ -347,6 +347,18 @@
     },
     {
       "proposalType": "EIP",
+      "number": "211",
+      "title": "New opcodes: RETURNDATASIZE and RETURNDATACOPY",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Christian Reitwiessner <chris@ethereum.org>",
+      "created": "2017-02-13",
+      "requires": [],
+      "fileName": "eip-211.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "2124",
       "title": "Fork identifier for chain compatibility checks",
       "status": "Final",
@@ -1900,6 +1912,7 @@
       "author": "Alex Forshtat (@forshtat), Shahaf Nacson (@shahafn), Dror Tirosh (@drortirosh), Yoav Weiss (@yoavw), Fredrik Svantes (@fredrik0x)",
       "created": "2025-02-21",
       "requires": [
+        "2929",
         "8141"
       ],
       "fileName": "eip-7906.md"
@@ -2231,7 +2244,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Francisco Giordano (@frangio), Toni Wahrstätter (@nerolation), Nick Johnson (@Arachnid)",
+      "author": "Francisco Giordano (@frangio), Toni Wahrstätter (@nerolation), Nick Johnson (@Arachnid), Jochem Brouwer (@jochem-brouwer)",
       "created": "2025-08-03",
       "requires": [
         "1014"
@@ -2863,7 +2876,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Kevaundray Wedderburn (@kevaundray), Ignacio Hagopian (@jsign), Jihoon Song <jihoon.song@ethereum.org>, Francesco Risitano (@frisitano), Thomas Thiery (@soispoke) <thomas.thiery@ethereum.org>, Toni Wahrstätter (@nerolation)",
+      "author": "Kevaundray Wedderburn (@kevaundray), Ignacio Hagopian (@jsign), Jihoon Song <jihoon.song@ethereum.org>, Francesco Risitano (@frisitano), Thomas Thiery (@soispoke) <thomas.thiery@ethereum.org>, Toni Wahrstätter (@nerolation), Péter Garamvölgyi (@thegaram)",
       "created": "2026-01-29",
       "requires": [
         "4844",
@@ -3013,7 +3026,7 @@
       "proposalType": "EIP",
       "number": "8182",
       "title": "Private ETH and ERC-20 Transfers",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Tom Lehman (@RogerPodacter)",
@@ -3170,6 +3183,18 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8219",
+      "title": "Checked Arithmetic Opcodes",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Hubert Ritzdorf (@ritzdorf)",
+      "created": "2026-04-08",
+      "requires": [],
+      "fileName": "eip-8219.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8222",
       "title": "Lean Staking",
       "status": "Draft",
@@ -3196,6 +3221,18 @@
         "7732"
       ],
       "fileName": "eip-8237.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8243",
+      "title": "Batching Attestations at Source",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Raúl Kripalani (@raulk), Toni Wahrstätter (@nerolation), Mikhail Kalinin (@mkalinin)",
+      "created": "2026-05-01",
+      "requires": [],
+      "fileName": "eip-8243.md"
     },
     {
       "proposalType": "EIP",
@@ -3352,6 +3389,142 @@
         "8131"
       ],
       "fileName": "eip-8279.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8282",
+      "title": "Builder Execution Requests",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Cayman (@wemeetagain), Nico Flaig <nflaig@protonmail.com>, Justin Traglia <jtraglia@ethereum.org>",
+      "created": "2026-05-22",
+      "requires": [
+        "1559",
+        "7685",
+        "7732"
+      ],
+      "fileName": "eip-8282.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8289",
+      "title": "Multi-block Access List Warming",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Toni Wahrstätter (@nerolation)",
+      "created": "2026-05-03",
+      "requires": [
+        "2929",
+        "2930",
+        "2935",
+        "3651",
+        "7702",
+        "7928"
+      ],
+      "fileName": "eip-8289.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8295",
+      "title": "State Tiering by Periods",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Wei Han Ng (@weiihann), Amirul Ashraf (@asdacap), Guillaume Ballet (@gballet), Maria Silva (@misilva73), Gary Rong (@rjl493456442), Carlos Perez (@CPerezz), Jochem Brouwer (@jochem-brouwer)",
+      "created": "2026-06-10",
+      "requires": [
+        "2929",
+        "2930",
+        "7702",
+        "7825",
+        "8037",
+        "8038",
+        "8188"
+      ],
+      "fileName": "eip-8295.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8296",
+      "title": "Fixed-Cutoff State Tiering",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Wei Han Ng (@weiihann)",
+      "created": "2026-06-10",
+      "requires": [
+        "2929",
+        "7702",
+        "7825",
+        "8037",
+        "8038",
+        "8188"
+      ],
+      "fileName": "eip-8296.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8297",
+      "title": "Partitioned Binary Tree",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Vitalik Buterin (@vbuterin), Guillaume Ballet (@gballet), Dankrad Feist (@dankrad), Ignacio Hagopian (@jsign), Kevaundray Wedderburn (@kevaundray), Tanishq Jasoria (@tanishqjasoria), Gajinder Singh (@g11tech), Danno Ferrin (@shemnon), Piper Merriam (@pipermerriam), Gottfried Herold (@GottfriedHerold), Wei Han Ng (@weiihann), Carlos Perez (@CPerezz)",
+      "created": "2026-06-11",
+      "requires": [
+        "7612"
+      ],
+      "fileName": "eip-8297.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8298",
+      "title": "SETCODEFROM Code Reuse Instruction",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Liyi Guo (@colinlyguo), Ben Adams (@benaadams), Carlos Perez (@CPerezz), Nicolas Consigny (@nconsigny)",
+      "created": "2026-06-11",
+      "requires": [
+        "2200",
+        "2929",
+        "3607",
+        "7702"
+      ],
+      "fileName": "eip-8298.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8310",
+      "title": "Post-Quantum Keystore for Stateful Keys",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Interface",
+      "author": "Anshal Shukla (@anshalshukla), Benedikt Wagner (@benedikt-wagner), Gajinder Singh (@g11tech), Guillaume Ballet (@gballet), Justin Drake (@JustinDrake), Kolby Moroz Liebl (@KolbyML), Parthasarathy Ramanujam (@ch4r10t33r), Shariq Naiyer (@shariqnaiyer), Thomas Coratger (@tcoratger), Unnawut Leepaisalsuwanna (@unnawut)",
+      "created": "2026-06-19",
+      "requires": [
+        "2335",
+        "3076"
+      ],
+      "fileName": "eip-8310.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8311",
+      "title": "Increase Calldata Floor Cost to 96",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Maria Silva (@misilva73), Toni Wahrstätter (@nerolation)",
+      "created": "2026-06-20",
+      "requires": [
+        "3860",
+        "7623",
+        "7976"
+      ],
+      "fileName": "eip-8311.md"
     },
     {
       "proposalType": "EIP",
@@ -9344,7 +9517,7 @@
       "proposalType": "ERC",
       "number": "8196",
       "title": "AI Agent Authenticated Wallet",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Leigh Cronian (@cybercentry) <leigh.cronian@cybercentry.co.uk>, Chris Johnson <chris@virtuals.io>",
@@ -9354,7 +9527,6 @@
         "191",
         "712",
         "4337",
-        "8004",
         "8126"
       ],
       "fileName": "erc-8196.md"
@@ -9414,7 +9586,9 @@
       "author": "Ludovico Rossi (@ludovicor-eth) <ludovico@brickken.com>, Dario Lo Buglio (@xaler5) <dario@brickken.com>, Thamer Dridi (@thamerdridi) <thamer@brickken.com>, Nabil El Alami Khalifi (@nabil-brickken) <nabil@brickken.com>",
       "created": "2026-04-12",
       "requires": [
-        "165"
+        "165",
+        "712",
+        "1271"
       ],
       "fileName": "erc-8226.md"
     },
@@ -9722,5 +9896,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-06-29T08:18:27.218Z"
+  "fetchedAt": "2026-07-06T08:18:27.289Z"
 }
