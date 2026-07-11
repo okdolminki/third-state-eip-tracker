@@ -4,21 +4,21 @@ roadmap_ids: [LG-4]
 source: GITHUB_RELEASE
 update_type: PROGRESS
 importance: LOW
-link: "https://github.com/Uniswap/sdks/releases/tag/%40uniswap/liquidity-launcher-sdk%400.3.2"
+link: "https://github.com/Uniswap/sdks/releases/tag/%40uniswap/liquidity-launcher-sdk%400.3.1"
 note_type: unification_update
 auto_generated: true
 ---
 
-# [Release] Uniswap/sdks @uniswap/liquidity-launcher-sdk@0.3.2
+# [Release] Uniswap/sdks @uniswap/liquidity-launcher-sdk@0.3.1
 
 > 출처: GITHUB_RELEASE | 2026-07-11 | 관련 항목: [[LG-4]]
 
 ## 요약
-유니스왑 Liquidity Launcher SDK에서 CCA 팩토리 주소를 신규 버전으로 업데이트했습니다.
-메인넷, 베이스, 유니체인 등 멀티체인에서 올바른 옥션 팩토리 조회를 보장합니다.
+Uniswap Liquidity Launcher SDK v0.3.1 패치 업데이트 배포
+모든 체인의 LBPStrategy v3.1.0 배포 계약 주소 동기화
 
 ## 시그널
-멀티체인 상에서 유동성 론칭(LBP) 옥션 팩토리 주소 동기화를 통해 LP 및 개발자의 유동성 공급 인프라 편의성과 정확도를 높입니다.
+멀티체인 환경에서 유동성 공급 및 론칭 도구(LBP)의 최신 계약 주소를 SDK에 반영하여 LP 인프라의 연동성을 개선합니다.
 
 ---
-[원문 보기](https://github.com/Uniswap/sdks/releases/tag/%40uniswap/liquidity-launcher-sdk%400.3.2)
+[원문 보기](https://github.com/Uniswap/sdks/releases/tag/%40uniswap/liquidity-launcher-sdk%400.3.1)
