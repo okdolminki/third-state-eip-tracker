@@ -580,7 +580,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Matt Garnett (@lightclient), Uri Klarman (@uriklarman), Ben Adams (@benaadams), Maria Inês Silva (@misilva73), Anders Elowsson (@anderselowsson), Anthony Sassano (@sassal)",
+      "author": "Matt Garnett (@lightclient), Uri Klarman (@uriklarman), Ben Adams (@benaadams), Maria Inês Silva (@misilva73), Anders Elowsson (@anderselowsson), Anthony Sassano (@sassal), Dragan Rakita (@rakita)",
       "created": "2020-07-11",
       "requires": [
         "2718",
@@ -591,7 +591,6 @@
         "7623",
         "7702",
         "7708",
-        "7904",
         "7928",
         "8037",
         "8038"
@@ -1539,7 +1538,7 @@
       "proposalType": "EIP",
       "number": "7708",
       "title": "ETH transfers emit a log",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Vitalik Buterin (@vbuterin), Peter Davies (@petertdavies), Etan Kissling (@etan-status), Gajinder Singh (@g11tech), Carson (@carsons-eels), Jared Wasinger (@jwasinger)",
@@ -1611,7 +1610,7 @@
       "proposalType": "EIP",
       "number": "7778",
       "title": "Block Gas Accounting without Refunds",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Ben Adams (@benaadams), Toni Wahrstätter (@nerolation)",
@@ -2013,7 +2012,7 @@
       "proposalType": "EIP",
       "number": "7928",
       "title": "Block-Level Access Lists",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Toni Wahrstätter (@nerolation), Dankrad Feist (@dankrad), Francesco D`Amato (@fradamt), Jochem Brouwer (@jochem-brouwer), Ignacio Hagopian (@jsign), Felipe Selmo (@fselmo), Rahul (@raxhvl), Stefan (@qu0b)",
@@ -2097,7 +2096,7 @@
       "proposalType": "EIP",
       "number": "7954",
       "title": "Increase Maximum Contract Size",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Giulio Rebuffo (@Giulio2002), Ben Adams (@benaadams)",
@@ -2197,7 +2196,7 @@
       "proposalType": "EIP",
       "number": "7976",
       "title": "Increase Calldata Floor Cost",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Toni Wahrstätter (@nerolation)",
@@ -2225,7 +2224,7 @@
       "proposalType": "EIP",
       "number": "7981",
       "title": "Increase Access List Cost",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Toni Wahrstätter (@nerolation)",
@@ -2241,7 +2240,7 @@
       "proposalType": "EIP",
       "number": "7997",
       "title": "Deterministic Factory Contract",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Francisco Giordano (@frangio), Toni Wahrstätter (@nerolation), Nick Johnson (@Arachnid), Jochem Brouwer (@jochem-brouwer)",
@@ -6215,6 +6214,7 @@
       "author": "Ko Fujimura (@kofujimura)",
       "created": "2023-07-09",
       "requires": [
+        "165",
         "721",
         "1155",
         "5679"
@@ -9419,6 +9419,21 @@
     },
     {
       "proposalType": "ERC",
+      "number": "8143",
+      "title": "Smart Credential Resolution Interface",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Prem Makeig (@nxt3d)",
+      "created": "2025-12-15",
+      "requires": [
+        "165",
+        "3668"
+      ],
+      "fileName": "erc-8143.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "8152",
       "title": "Content-Addressable Logic Modules (CALM)",
       "status": "Review",
@@ -9896,5 +9911,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-07-06T08:18:27.289Z"
+  "fetchedAt": "2026-07-13T08:33:27.127Z"
 }
