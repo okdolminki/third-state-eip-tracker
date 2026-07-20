@@ -2215,9 +2215,7 @@
       "category": "Core",
       "author": "Greg Colvin (@gcolvin) <greg@colvin.org>, Martin Holst Swende (@holiman), Brooklyn Zelenka (@expede), John Max Skaller",
       "created": "2025-12-17",
-      "requires": [
-        "3541"
-      ],
+      "requires": [],
       "fileName": "eip-7979.md"
     },
     {
@@ -3258,6 +3256,7 @@
       "author": "Thomas Thiery (@soispoke), Toni Wahrstätter (@nerolation), lightclient (@lightclient), Vitalik Buterin (@vbuterin)",
       "created": "2026-04-16",
       "requires": [
+        "7623",
         "8141"
       ],
       "fileName": "eip-8250.md"
@@ -3426,6 +3425,18 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8292",
+      "title": "Post-Quantum Attestation Aggregators",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Anshal Shukla (@anshalshukla), Gajinder Singh (@g11tech), Parthasarathy Ramanujam (@ch4r10t33r), Guillaume Ballet (@gballet), Shariq Naiyer (@shariqnaiyer), Kolby Moroz Liebl (@KolbyML), Unnawut Leepaisalsuwanna (@unnawut), Tom Wambsgans (@tomWambsgans), Thomas Coratger (@tcoratger), Justin Drake (@JustinDrake)",
+      "created": "2026-06-07",
+      "requires": [],
+      "fileName": "eip-8292.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8295",
       "title": "State Tiering by Periods",
       "status": "Draft",
@@ -3493,6 +3504,20 @@
         "7702"
       ],
       "fileName": "eip-8298.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8304",
+      "title": "Trustless log and transaction index",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Zsolt Felföldi (@zsfelfoldi)",
+      "created": "2026-06-17",
+      "requires": [
+        "4788"
+      ],
+      "fileName": "eip-8304.md"
     },
     {
       "proposalType": "EIP",
@@ -3684,7 +3709,7 @@
       "proposalType": "ERC",
       "number": "1450",
       "title": "RTA-Controlled Security Token",
-      "status": "Last Call",
+      "status": "Final",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Howard Marks (@howardmarks) <howard@startengine.com>, Devender Gollapally (@devender-startengine) <devender@startengine.com>, Joe Mathews (@se-joe) <joe@startengine.com>, Jordan Jahja (@jordan-jahja) <jordan.jahja@startengine.com>, John Shiple (@johnshiple), David Zhang (@david-colab) <david@startengine.com>",
@@ -9668,6 +9693,90 @@
     },
     {
       "proposalType": "ERC",
+      "number": "8325",
+      "title": "Asset Anchor Registry",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Chris Turner <c.turner@kula.com>, David Hay (@david-hay), Reagan Simpson (@krumg111), Collins Musyimi (@Musyimi97)",
+      "created": "2026-07-04",
+      "requires": [
+        "165"
+      ],
+      "fileName": "erc-8325.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8326",
+      "title": "Canonical Document Bundle Anchor",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Chris Turner <c.turner@kula.com>, David Hay (@david-hay), Reagan Simpson (@krumg111), Collins Musyimi (@Musyimi97)",
+      "created": "2026-07-05",
+      "requires": [
+        "165"
+      ],
+      "fileName": "erc-8326.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8327",
+      "title": "Directional Transfer Domain Registry",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Chris Turner <c.turner@kula.com>, David Hay (@david-hay), Reagan Simpson (@krumg111), Collins Musyimi (@Musyimi97)",
+      "created": "2026-07-05",
+      "requires": [
+        "165"
+      ],
+      "fileName": "erc-8327.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8328",
+      "title": "Subject-Linked Compliance Event Log",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Chris Turner <c.turner@kula.com>, David Hay (@david-hay), Reagan Simpson (@krumg111), Collins Musyimi (@Musyimi97)",
+      "created": "2026-07-05",
+      "requires": [
+        "165"
+      ],
+      "fileName": "erc-8328.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8329",
+      "title": "Subject-Linked Impact Snapshot Log",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Chris Turner <c.turner@kula.com>, David Hay (@david-hay), Reagan Simpson (@krumg111), Collins Musyimi (@Musyimi97)",
+      "created": "2026-07-05",
+      "requires": [
+        "165"
+      ],
+      "fileName": "erc-8329.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8330",
+      "title": "Subject-Linked NAV Snapshot Oracle",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Chris Turner <c.turner@kula.com>, David Hay (@david-hay), Reagan Simpson (@krumg111), Collins Musyimi (@Musyimi97)",
+      "created": "2026-07-05",
+      "requires": [
+        "165"
+      ],
+      "fileName": "erc-8330.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "838",
       "title": "ABI specification for REVERT reason string",
       "status": "Draft",
@@ -9911,5 +10020,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-07-13T08:33:27.127Z"
+  "fetchedAt": "2026-07-20T08:33:27.510Z"
 }
