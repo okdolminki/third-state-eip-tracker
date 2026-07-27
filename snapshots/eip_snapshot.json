@@ -587,7 +587,6 @@
         "2929",
         "2930",
         "6780",
-        "7523",
         "7623",
         "7702",
         "7708",
@@ -2322,6 +2321,22 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8015",
+      "title": "Remove `deposit` and `eth1data` fields",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Terence (@terencechain), Etan Kissling (@etan-status)",
+      "created": "2025-08-22",
+      "requires": [
+        "6110",
+        "7688",
+        "7773"
+      ],
+      "fileName": "eip-8015.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8016",
       "title": "SSZ CompatibleUnion",
       "status": "Draft",
@@ -2384,15 +2399,16 @@
       "author": "Maria Silva (@misilva73), Carlos Perez (@CPerezz), Jochem Brouwer (@jochem-brouwer), Ansgar Dietrichs (@adietrichs), Łukasz Rozmej (@LukaszRozmej), Anders Elowsson (@anderselowsson), Francesco D'Amato (@fradamt), Dragan Rakita (@rakita)",
       "created": "2025-10-01",
       "requires": [
+        "161",
+        "684",
         "2780",
         "6780",
+        "7610",
         "7623",
         "7702",
         "7825",
-        "7904",
         "7928",
         "7976",
-        "7981",
         "8038"
       ],
       "fileName": "eip-8037.md"
@@ -2407,7 +2423,6 @@
       "author": "Maria Silva (@misilva73), Wei Han Ng (@weiihann), Ansgar Dietrichs (@adietrichs)",
       "created": "2025-10-03",
       "requires": [
-        "7904",
         "8037"
       ],
       "fileName": "eip-8038.md"
@@ -2861,6 +2876,7 @@
         "2718",
         "3607",
         "4844",
+        "7594",
         "7623",
         "7702"
       ],
@@ -3484,6 +3500,7 @@
       "author": "Vitalik Buterin (@vbuterin), Guillaume Ballet (@gballet), Dankrad Feist (@dankrad), Ignacio Hagopian (@jsign), Kevaundray Wedderburn (@kevaundray), Tanishq Jasoria (@tanishqjasoria), Gajinder Singh (@g11tech), Danno Ferrin (@shemnon), Piper Merriam (@pipermerriam), Gottfried Herold (@GottfriedHerold), Wei Han Ng (@weiihann), Carlos Perez (@CPerezz)",
       "created": "2026-06-11",
       "requires": [
+        "4762",
         "7612"
       ],
       "fileName": "eip-8297.md"
@@ -3549,6 +3566,18 @@
         "7976"
       ],
       "fileName": "eip-8311.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8333",
+      "title": "Align Checkpoint with Epoch Boundary Block",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Cayman (@wemeetagain), Nico Flaig (@nflaig), Lodekeeper (@lodekeeper)",
+      "created": "2026-07-06",
+      "requires": [],
+      "fileName": "eip-8333.md"
     },
     {
       "proposalType": "EIP",
@@ -3720,6 +3749,18 @@
         "6093"
       ],
       "fileName": "erc-1450.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "1613",
+      "title": "Gas stations network",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Yoav Weiss (@yoavw), Dror Tirosh (@drortirosh), Alex Forshtat (@forshtat), Shahaf Nacson (@shahafn)",
+      "created": "2018-11-18",
+      "requires": [],
+      "fileName": "erc-1613.md"
     },
     {
       "proposalType": "ERC",
@@ -4753,7 +4794,7 @@
       "proposalType": "ERC",
       "number": "5516",
       "title": "Soulbound Multi-owner Tokens",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Lucas Martín Grasso Ramos (@LucasGrasso), Matias Arazi (@MatiArazi)",
@@ -7718,7 +7759,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "ERC",
-      "author": "Laurent Castillo (@lcastillo-ledger), Derek Rein (@arein), Pierre Aoun (@paoun-ledger), Arik Galansky (@arikg), Bartosz Rozwarski (@llbartekll), Kaan Uzdogan (@kuzdogan), Fredrik (@Fredrik0x)",
+      "author": "Laurent Castillo (@lcastillo-ledger), Derek Rein (@arein), Pierre Aoun (@paoun-ledger), Arik Galansky (@arikg), Bartosz Rozwarski (@llbartekll), Kaan Uzdogan (@kuzdogan), Fredrik (@Fredrik0x), Alex Forshtat (@forshtat)",
       "created": "2024-02-07",
       "requires": [
         "155",
@@ -9487,7 +9528,7 @@
       "proposalType": "ERC",
       "number": "8161",
       "title": "Transferable Tokenized Vault Requests",
-      "status": "Last Call",
+      "status": "Final",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Cain O'Sullivan (@cosullivan), Jeroen Offerijns (@hieronx)",
@@ -9557,7 +9598,7 @@
       "proposalType": "ERC",
       "number": "8196",
       "title": "AI Agent Authenticated Wallet",
-      "status": "Last Call",
+      "status": "Final",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Leigh Cronian (@cybercentry) <leigh.cronian@cybercentry.co.uk>, Chris Johnson <chris@virtuals.io>",
@@ -9695,7 +9736,7 @@
       "proposalType": "ERC",
       "number": "8325",
       "title": "Asset Anchor Registry",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Chris Turner <c.turner@kula.com>, David Hay (@david-hay), Reagan Simpson (@krumg111), Collins Musyimi (@Musyimi97)",
@@ -9709,7 +9750,7 @@
       "proposalType": "ERC",
       "number": "8326",
       "title": "Canonical Document Bundle Anchor",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Chris Turner <c.turner@kula.com>, David Hay (@david-hay), Reagan Simpson (@krumg111), Collins Musyimi (@Musyimi97)",
@@ -9723,7 +9764,7 @@
       "proposalType": "ERC",
       "number": "8327",
       "title": "Directional Transfer Domain Registry",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Chris Turner <c.turner@kula.com>, David Hay (@david-hay), Reagan Simpson (@krumg111), Collins Musyimi (@Musyimi97)",
@@ -9737,7 +9778,7 @@
       "proposalType": "ERC",
       "number": "8328",
       "title": "Subject-Linked Compliance Event Log",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Chris Turner <c.turner@kula.com>, David Hay (@david-hay), Reagan Simpson (@krumg111), Collins Musyimi (@Musyimi97)",
@@ -9751,7 +9792,7 @@
       "proposalType": "ERC",
       "number": "8329",
       "title": "Subject-Linked Impact Snapshot Log",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Chris Turner <c.turner@kula.com>, David Hay (@david-hay), Reagan Simpson (@krumg111), Collins Musyimi (@Musyimi97)",
@@ -9765,7 +9806,7 @@
       "proposalType": "ERC",
       "number": "8330",
       "title": "Subject-Linked NAV Snapshot Oracle",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Chris Turner <c.turner@kula.com>, David Hay (@david-hay), Reagan Simpson (@krumg111), Collins Musyimi (@Musyimi97)",
@@ -10020,5 +10061,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-07-20T08:33:27.510Z"
+  "fetchedAt": "2026-07-27T08:33:28.366Z"
 }
