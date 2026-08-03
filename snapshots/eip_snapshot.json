@@ -577,7 +577,7 @@
       "proposalType": "EIP",
       "number": "2780",
       "title": "Resource-based intrinsic transaction gas",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Matt Garnett (@lightclient), Uri Klarman (@uriklarman), Ben Adams (@benaadams), Maria Inês Silva (@misilva73), Anders Elowsson (@anderselowsson), Anthony Sassano (@sassal), Dragan Rakita (@rakita)",
@@ -1554,7 +1554,7 @@
       "proposalType": "EIP",
       "number": "7732",
       "title": "Enshrined Proposer-Builder Separation",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Francesco D'Amato <francesco.damato@ethereum.org>, Nico Flaig <nflaig@protonmail.com>, Barnabé Monnot <barnabe.monnot@ethereum.org>, Michael Neuder <michael.neuder@ethereum.org>, Potuz (@potuz), Justin Traglia <jtraglia@ethereum.org>, Terence Tsao <ttsao@offchainlabs.com>",
@@ -2364,6 +2364,26 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8025",
+      "title": "Optional Execution Proofs",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Kevaundray Wedderburn (@kevaundray), Justin Drake (@JustinDrake) <justin@ethereum.org>, Ignacio Hagopian (@jsign), Han (@han0110), Francesco Risitano (@frisitano)",
+      "created": "2025-09-17",
+      "requires": [
+        "4844",
+        "6110",
+        "7002",
+        "7251",
+        "7732",
+        "7892",
+        "7928"
+      ],
+      "fileName": "eip-8025.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8030",
       "title": "P256 algorithm support",
       "status": "Draft",
@@ -2393,7 +2413,7 @@
       "proposalType": "EIP",
       "number": "8037",
       "title": "State Creation Gas Cost Increase",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Maria Silva (@misilva73), Carlos Perez (@CPerezz), Jochem Brouwer (@jochem-brouwer), Ansgar Dietrichs (@adietrichs), Łukasz Rozmej (@LukaszRozmej), Anders Elowsson (@anderselowsson), Francesco D'Amato (@fradamt), Dragan Rakita (@rakita)",
@@ -2417,7 +2437,7 @@
       "proposalType": "EIP",
       "number": "8038",
       "title": "State-access gas cost update",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Maria Silva (@misilva73), Wei Han Ng (@weiihann), Ansgar Dietrichs (@adietrichs)",
@@ -2431,7 +2451,7 @@
       "proposalType": "EIP",
       "number": "8045",
       "title": "Exclude slashed validators from proposing",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Francesco D'Amato (@fradamt), Barnabas Busa (@barnabasbusa)",
@@ -2540,13 +2560,13 @@
       "proposalType": "EIP",
       "number": "8061",
       "title": "Increase exit and consolidation churn",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Francesco D'Amato (@fradamt), Anders Elowsson (@anderselowsson)",
       "created": "2025-10-17",
       "requires": [
-        "7521"
+        "7251"
       ],
       "fileName": "eip-8061.md"
     },
@@ -2869,11 +2889,12 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Vitalik Buterin (@vbuterin), lightclient (@lightclient), Felix Lange (@fjl), Yoav Weiss (@yoavw), Alex Forshtat (@forshtat), Dror Tirosh (@drortirosh), Shahaf Nacson (@shahafn), Derek Chiang (@derekchiang), Toni Wahrstätter (@nerolation)",
+      "author": "Vitalik Buterin (@vbuterin), lightclient (@lightclient), Felix Lange (@fjl), Yoav Weiss (@yoavw), Alex Forshtat (@forshtat), Dror Tirosh (@drortirosh), Shahaf Nacson (@shahafn), Derek Chiang (@derekchiang), Toni Wahrstätter (@nerolation), Stavros Vlachakis (@svlachakis)",
       "created": "2026-01-29",
       "requires": [
         "1559",
         "2718",
+        "3529",
         "3607",
         "4844",
         "7594",
@@ -2947,14 +2968,16 @@
     {
       "proposalType": "EIP",
       "number": "8151",
-      "title": "ECDSA Authority Deactivation Aware ecRecover",
+      "title": "Account Code Restricted ecRecover",
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
       "author": "Liyi Guo (@colinlyguo), Nicolas Consigny (@nconsigny)",
       "created": "2026-02-09",
       "requires": [
-        "7851"
+        "2929",
+        "3607",
+        "7702"
       ],
       "fileName": "eip-8151.md"
     },
@@ -3135,7 +3158,6 @@
       "created": "2026-03-21",
       "requires": [
         "152",
-        "2537",
         "7666",
         "7823",
         "7883"
@@ -3380,6 +3402,7 @@
       "author": "Thomas Thiery (@soispoke), Vitalik Buterin (@vbuterin), Toni Wahrstätter (@nerolation)",
       "created": "2026-05-15",
       "requires": [
+        "7623",
         "7843",
         "8141"
       ],
@@ -3499,10 +3522,7 @@
       "category": "Core",
       "author": "Vitalik Buterin (@vbuterin), Guillaume Ballet (@gballet), Dankrad Feist (@dankrad), Ignacio Hagopian (@jsign), Kevaundray Wedderburn (@kevaundray), Tanishq Jasoria (@tanishqjasoria), Gajinder Singh (@g11tech), Danno Ferrin (@shemnon), Piper Merriam (@pipermerriam), Gottfried Herold (@GottfriedHerold), Wei Han Ng (@weiihann), Carlos Perez (@CPerezz)",
       "created": "2026-06-11",
-      "requires": [
-        "4762",
-        "7612"
-      ],
+      "requires": [],
       "fileName": "eip-8297.md"
     },
     {
@@ -3574,10 +3594,41 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Cayman (@wemeetagain), Nico Flaig (@nflaig), Lodekeeper (@lodekeeper)",
+      "author": "Cayman (@wemeetagain), Nico Flaig (@nflaig), Lodekeeper (@lodekeeper), twoeths (@twoeths)",
       "created": "2026-07-06",
       "requires": [],
       "fileName": "eip-8333.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8337",
+      "title": "Validated EVM Code",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Greg Colvin (@gcolvin) <greg@colvin.org>, Martin Holst Swende (@holiman), Brooklyn Zelenka (@expede), John Max Skaller",
+      "created": "2026-07-09",
+      "requires": [
+        "3541",
+        "7979"
+      ],
+      "fileName": "eip-8337.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8347",
+      "title": "Offline State Migration to the PBT",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Carlos Perez (@CPerezz), Maria Silva (@misilva73), Kevaundray Wedderburn (@kevaundray)",
+      "created": "2026-07-23",
+      "requires": [
+        "7928",
+        "8159",
+        "8297"
+      ],
+      "fileName": "eip-8347.md"
     },
     {
       "proposalType": "EIP",
@@ -9167,7 +9218,9 @@
       "author": "Prem Makeig (@nxt3d), Rafael Abuawad (@rafael-abuawad)",
       "created": "2025-10-10",
       "requires": [
-        "165"
+        "20",
+        "165",
+        "7930"
       ],
       "fileName": "erc-8049.md"
     },
@@ -9707,6 +9760,20 @@
     },
     {
       "proposalType": "ERC",
+      "number": "8262",
+      "title": "Zero-Knowledge Compliance Oracle",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "DROO (@DROOdotFOO), Bloo (@bloo-berries), Merkle Bonsai (@Jabher), Jan (@sssngth)",
+      "created": "2026-04-07",
+      "requires": [
+        "165"
+      ],
+      "fileName": "erc-8262.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "8273",
       "title": "Attestation-Gated Agentic Actions",
       "status": "Draft",
@@ -9722,6 +9789,21 @@
     },
     {
       "proposalType": "ERC",
+      "number": "8286",
+      "title": "Modular Accounts for Frame Transactions",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Chiranjeev Mishra (@chiranjeev13), Pedro Gomes (@pedrouid), Alex Forshtat (@forshtat)",
+      "created": "2026-06-04",
+      "requires": [
+        "7579",
+        "8141"
+      ],
+      "fileName": "erc-8286.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "8290",
       "title": "Shielded Note Teleportation",
       "status": "Draft",
@@ -9731,6 +9813,22 @@
       "created": "2026-06-05",
       "requires": [],
       "fileName": "erc-8290.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8320",
+      "title": "Regulated Asset Claim",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Edwin Mata <edwin@brickken.com>, Ludovico Rossi (@ludovicor-eth) <ludovico@brickken.com>, Dario Lo Buglio (@xaler5) <dario@brickken.com>, Thamer Dridi (@thamerdridi) <thamer@brickken.com>, Nabil El Alami Khalifi (@nabil-brickken) <nabil@brickken.com>",
+      "created": "2026-07-03",
+      "requires": [
+        "165",
+        "712",
+        "1271"
+      ],
+      "fileName": "erc-8320.md"
     },
     {
       "proposalType": "ERC",
@@ -10061,5 +10159,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-07-27T08:33:28.366Z"
+  "fetchedAt": "2026-08-03T08:33:27.517Z"
 }
