@@ -4,21 +4,21 @@ roadmap_ids: [FM-4]
 source: GITHUB_RELEASE
 update_type: PROGRESS
 importance: MEDIUM
-link: "https://github.com/Uniswap/sdks/releases/tag/%40uniswap/liquidity-launcher-sdk%401.8.0"
+link: "https://github.com/Uniswap/sdks/releases/tag/%40uniswap/liquidity-launcher-sdk%401.7.0"
 note_type: unification_update
 auto_generated: true
 ---
 
-# [Release] Uniswap/sdks @uniswap/liquidity-launcher-sdk@1.8.0
+# [Release] Uniswap/sdks @uniswap/liquidity-launcher-sdk@1.7.0
 
 > 출처: GITHUB_RELEASE | 2026-08-06 | 관련 항목: [[FM-4]]
 
 ## 요약
-Robinhood 체인(chain-4663)에 유동성 런처 풀스택 재배포 완료
-새로운 FeeSplitter 적용을 통한 L2 수수료 분배 인프라 확장
+로빈후드 체인(4663)의 유동성 런치 스택을 v3.1.1 버전으로 재배포하여 오류를 수정했습니다.
+수수료 적용(fees-on/off) 버전의 신규 컨트랙트 주소 및 유니버설 라우터 전략을 업데이트했습니다.
 
 ## 시그널
-Robinhood 체인에 유동성 런처를 풀스택 재배포하고 새로운 수수료 분할기(FeeSplitter)를 적용하여 L2 수수료 분배 인프라 확장을 본격화합니다.
+로빈후드 L2 체인 상에서 오작동하던 유동성 런치 및 수수료 관련 스마트 컨트랙트를 정상화하고 SDK 연동 주소를 업데이트하여 L2 수수료 및 유동성 인프라의 안정성을 확보했습니다.
 
 ---
-[원문 보기](https://github.com/Uniswap/sdks/releases/tag/%40uniswap/liquidity-launcher-sdk%401.8.0)
+[원문 보기](https://github.com/Uniswap/sdks/releases/tag/%40uniswap/liquidity-launcher-sdk%401.7.0)
