@@ -1788,7 +1788,7 @@
       "proposalType": "EIP",
       "number": "7843",
       "title": "SLOTNUM opcode",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Marc Harvey-Hill (@Marchhill)",
@@ -2180,7 +2180,7 @@
       "proposalType": "EIP",
       "number": "7975",
       "title": "eth/70 - partial block receipt lists",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Networking",
       "author": "Felix Lange <fjl@ethereum.org>, Jochem Brouwer (@jochem-brouwer), Giulio Rebuffo (@Giulio2002)",
@@ -2369,7 +2369,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Kevaundray Wedderburn (@kevaundray), Justin Drake (@JustinDrake) <justin@ethereum.org>, Ignacio Hagopian (@jsign), Han (@han0110), Francesco Risitano (@frisitano)",
+      "author": "Kevaundray Wedderburn (@kevaundray), Justin Drake (@JustinDrake) <justin@ethereum.org>, Ignacio Hagopian (@jsign), Han (@han0110), Francesco Risitano (@frisitano), Cody Gunton (@codygunton)",
       "created": "2025-09-17",
       "requires": [
         "4844",
@@ -2603,7 +2603,7 @@
       "proposalType": "EIP",
       "number": "8070",
       "title": "eth/72 - Sparse Blobpool",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Networking",
       "author": "Raúl Kripalani (@raulk), Bosul Mun (@healthykim), Francesco D'Amato (@fradamt), Csaba Kiraly (@cskiraly), Felix Lange (@fjl), Marios Ioannou (@mariosioannou-create), Alex Stokes (@ralexstokes), Kamil Salakhiev (@kamilsa)",
@@ -2985,7 +2985,7 @@
       "proposalType": "EIP",
       "number": "8159",
       "title": "eth/71 - Block Access List Exchange",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Networking",
       "author": "Toni Wahrstätter (@nerolation)",
@@ -3105,7 +3105,7 @@
       "proposalType": "EIP",
       "number": "8189",
       "title": "snap/2 - BAL-Based State Healing",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Networking",
       "author": "Toni Wahrstätter (@nerolation), Gary Rong (@rjl493456442)",
@@ -3431,7 +3431,7 @@
       "proposalType": "EIP",
       "number": "8282",
       "title": "Builder Execution Requests",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Cayman (@wemeetagain), Nico Flaig <nflaig@protonmail.com>, Justin Traglia <jtraglia@ethereum.org>",
@@ -3629,6 +3629,34 @@
         "8297"
       ],
       "fileName": "eip-8347.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8368",
+      "title": "CPSB Recalibration for New Gas Limit",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Maria Silva (@misilva73)",
+      "created": "2026-08-05",
+      "requires": [
+        "8037"
+      ],
+      "fileName": "eip-8368.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8372",
+      "title": "Normalized state gas limit",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Anders Elowsson (@anderselowsson)",
+      "created": "2026-08-06",
+      "requires": [
+        "8037"
+      ],
+      "fileName": "eip-8372.md"
     },
     {
       "proposalType": "EIP",
@@ -10159,5 +10187,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-08-03T08:33:27.517Z"
+  "fetchedAt": "2026-08-10T08:33:28.466Z"
 }
