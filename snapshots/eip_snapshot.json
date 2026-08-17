@@ -1473,6 +1473,20 @@
     },
     {
       "proposalType": "EIP",
+      "number": "7666",
+      "title": "EVM-ify the identity precompile",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Vitalik Buterin (@vbuterin), Kevaundray Wedderburn (@kevaundray)",
+      "created": "2024-03-31",
+      "requires": [
+        "3855"
+      ],
+      "fileName": "eip-7666.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "7685",
       "title": "General purpose execution layer requests",
       "status": "Final",
@@ -1549,6 +1563,20 @@
         "8246"
       ],
       "fileName": "eip-7708.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "7709",
+      "title": "Read BLOCKHASH from Storage and Update Cost",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Vitalik Buterin (@vbuterin), Tomasz Stanczak (@tkstanczak), Guillaume Ballet (@gballet), Gajinder Singh (@g11tech), Tanishq Jasoria (@tanishqjasoria), Ignacio Hagopian (@jsign), Jochem Brouwer (@jochem-brouwer), Gabriel Rocheleau (@gabrocheleau)",
+      "created": "2024-05-18",
+      "requires": [
+        "2935"
+      ],
+      "fileName": "eip-7709.md"
     },
     {
       "proposalType": "EIP",
@@ -1907,7 +1935,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Alex Forshtat (@forshtat), Shahaf Nacson (@shahafn), Dror Tirosh (@drortirosh), Yoav Weiss (@yoavw), Fredrik Svantes (@fredrik0x)",
+      "author": "Alex Forshtat (@forshtat), Shahaf Nacson (@shahafn), Dror Tirosh (@drortirosh), Yoav Weiss (@yoavw), Fredrik Svantes (@0xfredrik)",
       "created": "2025-02-21",
       "requires": [
         "2929",
@@ -2266,7 +2294,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Anders Elowsson (@anderselowsson), Vitalik Buterin (@vbuterin)",
+      "author": "Anders Elowsson (@anderselowsson), Vitalik Buterin (@vbuterin), Maria Silva (@misilva73)",
       "created": "2025-08-04",
       "requires": [
         "1559",
@@ -2844,8 +2872,19 @@
       "author": "Chris Hunter (@chunter-cb) <chris.hunter@coinbase.com>",
       "created": "2025-10-14",
       "requires": [
+        "155",
         "170",
-        "2718"
+        "712",
+        "1271",
+        "1559",
+        "2028",
+        "2718",
+        "2929",
+        "4337",
+        "6780",
+        "7702",
+        "7708",
+        "7819"
       ],
       "fileName": "eip-8130.md"
     },
@@ -2872,7 +2911,7 @@
       "proposalType": "EIP",
       "number": "8136",
       "title": "Cell-Level Deltas for Data Column Broadcast",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Networking",
       "author": "Marco Munizaga (@MarcoPolo) <git@marcopolo.io>, Daniel Knopik (@dknopik) <daniel@dknopik.de>, Sukun Tarachandani (@sukunrt) <sukunrt@gmail.com>",
@@ -2894,12 +2933,16 @@
       "requires": [
         "1559",
         "2718",
+        "2780",
         "3529",
         "3607",
         "4844",
         "7594",
         "7623",
-        "7702"
+        "7702",
+        "7708",
+        "7825",
+        "8037"
       ],
       "fileName": "eip-8141.md"
     },
@@ -3350,22 +3393,6 @@
     },
     {
       "proposalType": "EIP",
-      "number": "8261",
-      "title": "Gas Limit Schedule",
-      "status": "Draft",
-      "type": "Standards Track",
-      "category": "Core",
-      "author": "Barnabas Busa (@barnabasbusa)",
-      "created": "2026-05-11",
-      "requires": [
-        "1559",
-        "7840",
-        "7892"
-      ],
-      "fileName": "eip-8261.md"
-    },
-    {
-      "proposalType": "EIP",
       "number": "8266",
       "title": "Expiring Nonces for Frame Transactions",
       "status": "Draft",
@@ -3434,7 +3461,7 @@
       "status": "Review",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Cayman (@wemeetagain), Nico Flaig <nflaig@protonmail.com>, Justin Traglia <jtraglia@ethereum.org>",
+      "author": "Cayman (@wemeetagain), Nico Flaig <nflaig@protonmail.com>, Felix Lange <fjl@ethereum.org>, Justin Traglia <jtraglia@ethereum.org>",
       "created": "2026-05-22",
       "requires": [
         "1559",
@@ -3589,6 +3616,20 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8321",
+      "title": "Hash-Chain RANDAO",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Kevaundray Wedderburn (@kevaundray), Benedikt Wagner (@benedikt-wagner), Tom Wambsgans (@TomWambsgans), Justin Drake (@JustinDrake), Thomas Coratger (@tcoratger)",
+      "created": "2026-07-05",
+      "requires": [
+        "7916"
+      ],
+      "fileName": "eip-8321.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8333",
       "title": "Align Checkpoint with Epoch Boundary Block",
       "status": "Draft",
@@ -3632,17 +3673,44 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8363",
+      "title": "Tapered Issuance Burn",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "pintail (@pintail-xyz), Jérôme de Tychey (@jdetychey), dapplion (@dapplion), pa7x1 (@pa7x1), Ladislaus von Daniels (@ladidan), Justin Drake (@justindrake)",
+      "created": "2026-07-14",
+      "requires": [],
+      "fileName": "eip-8363.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8368",
       "title": "CPSB Recalibration for New Gas Limit",
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Maria Silva (@misilva73)",
+      "author": "Maria Silva (@misilva73), Toni Wahrstätter (@nerolation)",
       "created": "2026-08-05",
       "requires": [
         "8037"
       ],
       "fileName": "eip-8368.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8371",
+      "title": "RowDAS - Distributed Blob Reconstruction",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Networking",
+      "author": "Csaba Kiraly (@cskiraly), Marco Munizaga (@MarcoPolo)",
+      "created": "2026-08-05",
+      "requires": [
+        "7594",
+        "8136"
+      ],
+      "fileName": "eip-8371.md"
     },
     {
       "proposalType": "EIP",
@@ -9211,7 +9279,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "ERC",
-      "author": "Sirawit Techavanitch (@MASDXI) <sirawit_tec@live4.utcc.ac.th>, Supache Innet <supachate_inn@utcc.ac.th>",
+      "author": "Sirawit Techavanitch (@MASDXI) <sirawit_tec@live4.utcc.ac.th>, Supachate Innet <supachate_inn@utcc.ac.th>",
       "created": "2025-10-15",
       "requires": [
         "165",
@@ -10187,5 +10255,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-08-10T08:33:28.466Z"
+  "fetchedAt": "2026-08-17T08:33:27.353Z"
 }
