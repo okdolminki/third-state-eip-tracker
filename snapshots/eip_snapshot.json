@@ -704,6 +704,24 @@
     },
     {
       "proposalType": "EIP",
+      "number": "3298",
+      "title": "Remove storage-clear refund and refund cap",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Vitalik Buterin (@vbuterin), Martin Swende (@holiman), Jochem Brouwer (@jochem-brouwer)",
+      "created": "2021-02-26",
+      "requires": [
+        "2780",
+        "3529",
+        "7778",
+        "8037",
+        "8038"
+      ],
+      "fileName": "eip-3298.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "3529",
       "title": "Reduction in refunds",
       "status": "Final",
@@ -1007,6 +1025,22 @@
         "4938"
       ],
       "fileName": "eip-5793.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "5920",
+      "title": "PAY opcode",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Gavin John (@Pandapip1), Zainan Victor Zhou (@xinbenlv), Sam Wilson (@SamWilsn), Jochem Brouwer (@jochem-brouwer), Charles Cooper (@charles-cooper)",
+      "created": "2022-03-14",
+      "requires": [
+        "214",
+        "2929",
+        "7523"
+      ],
+      "fileName": "eip-5920.md"
     },
     {
       "proposalType": "EIP",
@@ -2404,9 +2438,10 @@
         "6110",
         "7002",
         "7251",
+        "7688",
         "7732",
-        "7892",
-        "7928"
+        "7928",
+        "8282"
       ],
       "fileName": "eip-8025.md"
     },
@@ -2914,7 +2949,7 @@
       "status": "Review",
       "type": "Standards Track",
       "category": "Networking",
-      "author": "Marco Munizaga (@MarcoPolo) <git@marcopolo.io>, Daniel Knopik (@dknopik) <daniel@dknopik.de>, Sukun Tarachandani (@sukunrt) <sukunrt@gmail.com>",
+      "author": "Marco Munizaga (@MarcoPolo) <git@marcopolo.io>, Daniel Knopik (@dknopik) <daniel@dknopik.de>, Sukun Tarachandani (@sukunrt) <sukunrt@gmail.com>, Aarsh Shah (@aarshkshah1992) <aarshkshah1992@gmail.com>",
       "created": "2025-01-23",
       "requires": [
         "7594"
@@ -2941,6 +2976,7 @@
         "7623",
         "7702",
         "7708",
+        "7778",
         "7825",
         "8037"
       ],
@@ -2986,7 +3022,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Dmitry Gusakov (@dgusakov), Dmitry Chernukhin (@madlabman), Greg Koumoutsos (@gkoumout)",
+      "author": "Dmitry Gusakov (@dgusakov), Dmitry Chernukhin (@madlabman), Greg Koumoutsos (@gkoumout), Manu (@nalepae)",
       "created": "2026-02-05",
       "requires": [
         "7251",
@@ -3238,7 +3274,6 @@
       "author": "George Avsetsin (@avsetsin), Dmitry Gusakov (@dgusakov), Greg Koumoutsos (@gkoumout), Eugene Mamin (@TheDZhon)",
       "created": "2026-03-26",
       "requires": [
-        "4788",
         "6110",
         "7685",
         "7732"
@@ -9663,7 +9698,7 @@
       "proposalType": "ERC",
       "number": "8153",
       "title": "Facet-Based Diamonds",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Nick Mudge (@mudgen)",
@@ -9742,6 +9777,25 @@
         "20"
       ],
       "fileName": "erc-8183.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8187",
+      "title": "Token Puller",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Guillermo Narvaja (@gnarvaja)",
+      "created": "2026-02-27",
+      "requires": [
+        "20",
+        "712",
+        "1271",
+        "2612",
+        "5267",
+        "6492"
+      ],
+      "fileName": "erc-8187.md"
     },
     {
       "proposalType": "ERC",
@@ -10255,5 +10309,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-08-17T08:33:27.353Z"
+  "fetchedAt": "2026-08-24T08:33:27.230Z"
 }
