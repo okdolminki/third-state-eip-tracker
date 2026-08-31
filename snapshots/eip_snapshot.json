@@ -854,6 +854,18 @@
     },
     {
       "proposalType": "EIP",
+      "number": "4444",
+      "title": "Bound Historical Data in Execution Clients",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Networking",
+      "author": "George Kadianakis (@asn-d6), lightclient (@lightclient), Alex Stokes (@ralexstokes)",
+      "created": "2021-11-02",
+      "requires": [],
+      "fileName": "eip-4444.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "4736",
       "title": "Consensus Layer Withdrawal Protection",
       "status": "Final",
@@ -3597,10 +3609,12 @@
       "author": "Liyi Guo (@colinlyguo), Ben Adams (@benaadams), Carlos Perez (@CPerezz), Nicolas Consigny (@nconsigny)",
       "created": "2026-06-11",
       "requires": [
-        "2200",
-        "2929",
+        "3529",
         "3607",
-        "7702"
+        "6780",
+        "7702",
+        "8037",
+        "8038"
       ],
       "fileName": "eip-8298.md"
     },
@@ -3700,6 +3714,7 @@
       "author": "Carlos Perez (@CPerezz), Maria Silva (@misilva73), Kevaundray Wedderburn (@kevaundray)",
       "created": "2026-07-23",
       "requires": [
+        "7523",
         "7928",
         "8159",
         "8297"
@@ -3760,6 +3775,18 @@
         "8037"
       ],
       "fileName": "eip-8372.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8390",
+      "title": "Remove the Sync Committee",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Lion (@dapplion)",
+      "created": "2026-08-22",
+      "requires": [],
+      "fileName": "eip-8390.md"
     },
     {
       "proposalType": "EIP",
@@ -4976,7 +5003,7 @@
       "proposalType": "ERC",
       "number": "5516",
       "title": "Soulbound Multi-owner Tokens",
-      "status": "Last Call",
+      "status": "Final",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Lucas Martín Grasso Ramos (@LucasGrasso), Matias Arazi (@MatiArazi)",
@@ -8904,7 +8931,7 @@
       "proposalType": "ERC",
       "number": "7945",
       "title": "Confidential Transactions Supported Token",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Siyuan Zheng (@andrewcoder666) <zhengsiyuan.zsy@antgroup.com>, Zhe Han (@iampkuhz) <hanzhe.hz@ant-intl.com>, Xiaoyu Liu (@elizabethxiaoyu) <jiushi.lxy@antgroup.com>, Wenwei Ma (@madyinglight) <huiwei.mww@antgroup.com>, Jun Meng Tan (@chadxeth) <junmeng.t@antgroup.com>, Yuxiang Fu (@tmac4096) <kunfu.fyx@antgroup.com>, Kecheng Gao (@thanks-v-me-50) <gaokecheng.gkc@antgroup.com>, Alwin Ng Jun Wei (@alwinngjw) <alwin.ng@antgroup.com>, Chenxin Wang (@3235773541) <wcx465603@antgroup.com>, Xiang Gao (@GaoYiRu) <gaoxiang.gao@antgroup.com>, yuanshanhshan (@xunayuan) <yuanshanshan.yss@antgroup.com>, Hao Zou (@BruceZH0915) <situ.zh@antgroup.com>, Yanyi Liang <eason.lyy@antgroup.com>, Yuehua Zhang (@astroyhzcc) <ruoying.zyh@antgroup.com>",
@@ -10066,6 +10093,39 @@
     },
     {
       "proposalType": "ERC",
+      "number": "8349",
+      "title": "Index-Based Multi-Facet Proxy",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Artem Buchikhin (@Arhemius)",
+      "created": "2026-07-25",
+      "requires": [
+        "165"
+      ],
+      "fileName": "erc-8349.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8354",
+      "title": "Confidential Agent Policy Verdicts",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Muhammad Zidan Fatonie (@mzf11125), Faisal Firdani (@zexoverz), Maulana Asykari Muhammad (@WeissCurry)",
+      "created": "2026-07-16",
+      "requires": [
+        "165",
+        "712",
+        "721",
+        "1271",
+        "7812",
+        "8004"
+      ],
+      "fileName": "erc-8354.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "838",
       "title": "ABI specification for REVERT reason string",
       "status": "Draft",
@@ -10309,5 +10369,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-08-24T08:33:27.230Z"
+  "fetchedAt": "2026-08-31T08:33:27.096Z"
 }
