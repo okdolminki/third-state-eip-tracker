@@ -2912,7 +2912,7 @@
     {
       "proposalType": "EIP",
       "number": "8130",
-      "title": "Account Abstraction by Account Configuration",
+      "title": "Keystore Accounts",
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
@@ -3385,6 +3385,7 @@
       "created": "2026-04-16",
       "requires": [
         "7623",
+        "8037",
         "8141"
       ],
       "fileName": "eip-8250.md"
@@ -3473,10 +3474,9 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Thomas Thiery (@soispoke), Vitalik Buterin (@vbuterin), Toni Wahrstätter (@nerolation)",
+      "author": "Thomas Thiery (@soispoke), Vitalik Buterin (@vbuterin), Toni Wahrstätter (@nerolation), lightclient (@lightclient)",
       "created": "2026-05-15",
       "requires": [
-        "7623",
         "7843",
         "8141"
       ],
@@ -3723,6 +3723,38 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8355",
+      "title": "Precompiles for ML-DSA Verification",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Danno Ferrin (@shemnon)",
+      "created": "2026-07-30",
+      "requires": [],
+      "fileName": "eip-8355.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8360",
+      "title": "TCREATE Opcode",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Helkomine (@Helkomine), abc-123-c (@abc-123-c)",
+      "created": "2026-08-03",
+      "requires": [
+        "161",
+        "1014",
+        "1153",
+        "3529",
+        "7610",
+        "8037",
+        "8038"
+      ],
+      "fileName": "eip-8360.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8363",
       "title": "Tapered Issuance Burn",
       "status": "Draft",
@@ -3775,6 +3807,18 @@
         "8037"
       ],
       "fileName": "eip-8372.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8379",
+      "title": "Top-up Sync",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Jacek Sieka (@arnetheduck), Dustin (@tersec), Tamaghna Choudhuri (@RazorClient)",
+      "created": "2026-08-06",
+      "requires": [],
+      "fileName": "eip-8379.md"
     },
     {
       "proposalType": "EIP",
@@ -9403,7 +9447,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "ERC",
-      "author": "Chris Ridmann (@cridmann) <chris@superstate.co>, Daniel Gretzke (@gretzke), Gilbert Shih <chung.shih@robinhood.com>, Tino Martinez Molina (@tinom9)",
+      "author": "Chris Ridmann (@cridmann) <chris@superstate.co>, Daniel Gretzke (@gretzke), Gilbert Shih <chung.shih@robinhood.com>, Tino Martinez Molina (@tinom9), Markus Osterlund (@robriks) <markus.osterlund@coinbase.com>",
       "created": "2025-10-20",
       "requires": [
         "20",
@@ -9725,7 +9769,7 @@
       "proposalType": "ERC",
       "number": "8153",
       "title": "Facet-Based Diamonds",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Nick Mudge (@mudgen)",
@@ -9754,7 +9798,7 @@
       "proposalType": "ERC",
       "number": "8167",
       "title": "Modular Dispatch Proxies",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "ERC",
       "author": "William Morriss (@wjmelements), Radek Svarz (@radeksvarz)",
@@ -10369,5 +10413,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-08-31T08:33:27.096Z"
+  "fetchedAt": "2026-09-07T08:48:27.586Z"
 }
