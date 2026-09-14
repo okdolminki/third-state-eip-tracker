@@ -3519,6 +3519,21 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8288",
+      "title": "In-mempool signature and proof aggregation",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Vitalik Buterin (@vbuterin), Thomas Coratger (@tcoratger)",
+      "created": "2026-06-03",
+      "requires": [
+        "2718",
+        "8141"
+      ],
+      "fileName": "eip-8288.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8289",
       "title": "Multi-block Access List Warming",
       "status": "Draft",
@@ -10170,6 +10185,21 @@
     },
     {
       "proposalType": "ERC",
+      "number": "8377",
+      "title": "Reference-Relative Slippage Bounds",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Faisal Firdani (@zexoverz)",
+      "created": "2026-08-05",
+      "requires": [
+        "165",
+        "7726"
+      ],
+      "fileName": "erc-8377.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "838",
       "title": "ABI specification for REVERT reason string",
       "status": "Draft",
@@ -10413,5 +10443,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-09-07T08:48:27.586Z"
+  "fetchedAt": "2026-09-14T08:48:33.308Z"
 }
