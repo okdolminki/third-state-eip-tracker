@@ -1720,6 +1720,18 @@
     },
     {
       "proposalType": "EIP",
+      "number": "7784",
+      "title": "GETCONTRACT opcode",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Tim Pechersky (@peersky)",
+      "created": "2024-10-07",
+      "requires": [],
+      "fileName": "eip-7784.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "7791",
       "title": "GAS2ETH opcode",
       "status": "Draft",
@@ -2498,7 +2510,6 @@
         "684",
         "2780",
         "6780",
-        "7610",
         "7623",
         "7702",
         "7825",
@@ -2919,19 +2930,9 @@
       "author": "Chris Hunter (@chunter-cb) <chris.hunter@coinbase.com>",
       "created": "2025-10-14",
       "requires": [
-        "155",
         "170",
-        "712",
-        "1271",
-        "1559",
-        "2028",
         "2718",
-        "2929",
-        "4337",
-        "6780",
-        "7702",
-        "7708",
-        "7819"
+        "7623"
       ],
       "fileName": "eip-8130.md"
     },
@@ -3363,7 +3364,7 @@
       "proposalType": "EIP",
       "number": "8246",
       "title": "Remove SELFDESTRUCT Burn",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "author": "Paweł Bylica (@chfast)",
@@ -3755,14 +3756,15 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Helkomine (@Helkomine), abc-123-c (@abc-123-c)",
+      "author": "Helkomine (@Helkomine), abc-123-c (@abc-123-c), Milos (@milonite)",
       "created": "2026-08-03",
       "requires": [
         "161",
+        "684",
         "1014",
         "1153",
         "3529",
-        "7610",
+        "7928",
         "8037",
         "8038"
       ],
@@ -3779,6 +3781,22 @@
       "created": "2026-07-14",
       "requires": [],
       "fileName": "eip-8363.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8365",
+      "title": "BLS withdrawal credential retirement",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "NC (@ensi321)",
+      "created": "2026-07-18",
+      "requires": [
+        "6110",
+        "7251",
+        "7732"
+      ],
+      "fileName": "eip-8365.md"
     },
     {
       "proposalType": "EIP",
@@ -5391,6 +5409,21 @@
         "721"
       ],
       "fileName": "erc-5791.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "5805",
+      "title": "Voting with delegation",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Hadrien Croubois (@Amxx), Francisco Giordano (@frangio)",
+      "created": "2022-07-04",
+      "requires": [
+        "712",
+        "6372"
+      ],
+      "fileName": "erc-5805.md"
     },
     {
       "proposalType": "ERC",
@@ -7158,7 +7191,7 @@
       "proposalType": "ERC",
       "number": "7562",
       "title": "Account Abstraction Validation Scope Rules",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Yoav Weiss (@yoavw), Dror Tirosh (@drortirosh), Alex Forshtat (@forshtat), Shahaf Nacson (@shahafn)",
@@ -9060,7 +9093,7 @@
       "proposalType": "ERC",
       "number": "7962",
       "title": "Key Hash Based Tokens",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Alex Tian (@dugubuyan), Zhixiong Pan (@nake13), Geoffrey (@stbrahms) <geoffrey@datadance.ai>, liyingxuan (@LiYingxuan) <liyingxuan@datadance.ai>",
@@ -9605,15 +9638,18 @@
       "proposalType": "ERC",
       "number": "8107",
       "title": "ENS Trust Registry for Agent Coordination",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Kwame Bryan (@KBryan)",
       "created": "2025-12-16",
       "requires": [
         "137",
+        "165",
         "712",
         "1271",
+        "3668",
+        "5267",
         "8001"
       ],
       "fileName": "erc-8107.md"
@@ -10166,6 +10202,22 @@
     },
     {
       "proposalType": "ERC",
+      "number": "8350",
+      "title": "Agent Memory State Registry",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Everest An (@everest-an), XiaoHai (@XiaoHai67890), Luo (@lucas1968), Eric",
+      "created": "2026-07-14",
+      "requires": [
+        "712",
+        "1271",
+        "7702"
+      ],
+      "fileName": "erc-8350.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "8354",
       "title": "Confidential Agent Policy Verdicts",
       "status": "Draft",
@@ -10443,5 +10495,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-09-14T08:48:33.308Z"
+  "fetchedAt": "2026-09-21T08:48:28.043Z"
 }
