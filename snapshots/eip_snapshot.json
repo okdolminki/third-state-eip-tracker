@@ -3756,7 +3756,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Helkomine (@Helkomine), abc-123-c (@abc-123-c), Milos (@milonite)",
+      "author": "Helkomine (@Helkomine), abc-123-c (@abc-123-c), Milos (@milonite), Peter Phillips (@PeterMPhillips)",
       "created": "2026-08-03",
       "requires": [
         "161",
@@ -3852,6 +3852,18 @@
       "created": "2026-08-06",
       "requires": [],
       "fileName": "eip-8379.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8383",
+      "title": "Reduce CL Block Retention Window",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Networking",
+      "author": "Kevaundray Wedderburn (@kevaundray)",
+      "created": "2026-08-17",
+      "requires": [],
+      "fileName": "eip-8383.md"
     },
     {
       "proposalType": "EIP",
@@ -10264,6 +10276,21 @@
     },
     {
       "proposalType": "ERC",
+      "number": "8410",
+      "title": "Portable Execution Plan Artifact",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Moody Salem (@moodysalem)",
+      "created": "2026-09-04",
+      "requires": [
+        "155",
+        "712"
+      ],
+      "fileName": "erc-8410.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "998",
       "title": "Composable Non-Fungible Token",
       "status": "Draft",
@@ -10495,5 +10522,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-09-21T08:48:28.043Z"
+  "fetchedAt": "2026-09-28T08:48:27.388Z"
 }
