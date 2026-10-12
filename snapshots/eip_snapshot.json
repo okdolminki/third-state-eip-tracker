@@ -577,7 +577,7 @@
       "proposalType": "EIP",
       "number": "2780",
       "title": "Resource-based intrinsic transaction gas",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "author": "Matt Garnett (@lightclient), Uri Klarman (@uriklarman), Ben Adams (@benaadams), Maria Inês Silva (@misilva73), Anders Elowsson (@anderselowsson), Anthony Sassano (@sassal), Dragan Rakita (@rakita)",
@@ -1597,7 +1597,7 @@
       "proposalType": "EIP",
       "number": "7708",
       "title": "ETH transfers emit a log",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "author": "Vitalik Buterin (@vbuterin), Peter Davies (@petertdavies), Etan Kissling (@etan-status), Gajinder Singh (@g11tech), Carson (@carsons-eels), Jared Wasinger (@jwasinger)",
@@ -1640,7 +1640,7 @@
       "proposalType": "EIP",
       "number": "7732",
       "title": "Enshrined Proposer-Builder Separation",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "author": "Francesco D'Amato <francesco.damato@ethereum.org>, Nico Flaig <nflaig@protonmail.com>, Barnabé Monnot <barnabe.monnot@ethereum.org>, Michael Neuder <michael.neuder@ethereum.org>, Potuz (@potuz), Justin Traglia <jtraglia@ethereum.org>, Terence Tsao <ttsao@offchainlabs.com>",
@@ -1695,7 +1695,7 @@
       "proposalType": "EIP",
       "number": "7778",
       "title": "Block Gas Accounting without Refunds",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "author": "Ben Adams (@benaadams), Toni Wahrstätter (@nerolation)",
@@ -1886,7 +1886,7 @@
       "proposalType": "EIP",
       "number": "7843",
       "title": "SLOTNUM opcode",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "author": "Marc Harvey-Hill (@Marchhill)",
@@ -2109,7 +2109,7 @@
       "proposalType": "EIP",
       "number": "7928",
       "title": "Block-Level Access Lists",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "author": "Toni Wahrstätter (@nerolation), Dankrad Feist (@dankrad), Francesco D`Amato (@fradamt), Jochem Brouwer (@jochem-brouwer), Ignacio Hagopian (@jsign), Felipe Selmo (@fselmo), Rahul (@raxhvl), Stefan (@qu0b)",
@@ -2193,7 +2193,7 @@
       "proposalType": "EIP",
       "number": "7954",
       "title": "Increase Maximum Contract Size",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "author": "Giulio Rebuffo (@Giulio2002), Ben Adams (@benaadams)",
@@ -2278,7 +2278,7 @@
       "proposalType": "EIP",
       "number": "7975",
       "title": "eth/70 - partial block receipt lists",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Networking",
       "author": "Felix Lange <fjl@ethereum.org>, Jochem Brouwer (@jochem-brouwer), Giulio Rebuffo (@Giulio2002)",
@@ -2293,7 +2293,7 @@
       "proposalType": "EIP",
       "number": "7976",
       "title": "Increase Calldata Floor Cost",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "author": "Toni Wahrstätter (@nerolation)",
@@ -2319,7 +2319,7 @@
       "proposalType": "EIP",
       "number": "7981",
       "title": "Increase Access List Cost",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "author": "Toni Wahrstätter (@nerolation)",
@@ -2335,7 +2335,7 @@
       "proposalType": "EIP",
       "number": "7997",
       "title": "Deterministic Factory Contract",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "author": "Francisco Giordano (@frangio), Toni Wahrstätter (@nerolation), Nick Johnson (@Arachnid), Jochem Brouwer (@jochem-brouwer)",
@@ -2452,7 +2452,7 @@
       "proposalType": "EIP",
       "number": "8024",
       "title": "Backward compatible SWAPN, DUPN, EXCHANGE",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "author": "Francisco Giordano (@frangio), Charles Cooper (@charles-cooper), Alex Beregszaszi (@axic), Paweł Bylica (@chfast)",
@@ -2512,7 +2512,7 @@
       "proposalType": "EIP",
       "number": "8037",
       "title": "State Creation Gas Cost Increase",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "author": "Maria Silva (@misilva73), Carlos Perez (@CPerezz), Jochem Brouwer (@jochem-brouwer), Ansgar Dietrichs (@adietrichs), Łukasz Rozmej (@LukaszRozmej), Anders Elowsson (@anderselowsson), Francesco D'Amato (@fradamt), Dragan Rakita (@rakita), Paweł Bylica (@chfast), Spencer Taylor-Brown (@spencer-tb), Gary Rong (@rjl493456442)",
@@ -2535,7 +2535,7 @@
       "proposalType": "EIP",
       "number": "8038",
       "title": "State-access gas cost update",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "author": "Maria Silva (@misilva73), Wei Han Ng (@weiihann), Ansgar Dietrichs (@adietrichs)",
@@ -2549,7 +2549,7 @@
       "proposalType": "EIP",
       "number": "8045",
       "title": "Exclude slashed validators from proposing",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "author": "Francesco D'Amato (@fradamt), Barnabas Busa (@barnabasbusa)",
@@ -2569,7 +2569,10 @@
       "author": "Anders Elowsson (@anderselowsson)",
       "created": "2025-10-16",
       "requires": [
-        "7805"
+        "7805",
+        "8037",
+        "8141",
+        "8369"
       ],
       "fileName": "eip-8046.md"
     },
@@ -2658,7 +2661,7 @@
       "proposalType": "EIP",
       "number": "8061",
       "title": "Increase exit and consolidation churn",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "author": "Francesco D'Amato (@fradamt), Anders Elowsson (@anderselowsson)",
@@ -2701,7 +2704,7 @@
       "proposalType": "EIP",
       "number": "8070",
       "title": "eth/72 - Sparse Blobpool",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Networking",
       "author": "Raúl Kripalani (@raulk), Bosul Mun (@healthykim), Francesco D'Amato (@fradamt), Csaba Kiraly (@cskiraly), Felix Lange (@fjl), Marios Ioannou (@mariosioannou-create), Alex Stokes (@ralexstokes), Kamil Salakhiev (@kamilsa)",
@@ -2943,8 +2946,7 @@
       "created": "2025-10-14",
       "requires": [
         "170",
-        "2718",
-        "7623"
+        "1014"
       ],
       "fileName": "eip-8130.md"
     },
@@ -2971,7 +2973,7 @@
       "proposalType": "EIP",
       "number": "8136",
       "title": "Cell-Level Deltas for Data Column Broadcast",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Networking",
       "author": "Marco Munizaga (@MarcoPolo) <git@marcopolo.io>, Daniel Knopik (@dknopik) <daniel@dknopik.de>, Sukun Tarachandani (@sukunrt) <sukunrt@gmail.com>, Aarsh Shah (@aarshkshah1992) <aarshkshah1992@gmail.com>",
@@ -3089,7 +3091,7 @@
       "proposalType": "EIP",
       "number": "8159",
       "title": "eth/71 - Block Access List Exchange",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Networking",
       "author": "Toni Wahrstätter (@nerolation)",
@@ -3209,7 +3211,7 @@
       "proposalType": "EIP",
       "number": "8189",
       "title": "snap/2 - BAL-Based State Healing",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Networking",
       "author": "Toni Wahrstätter (@nerolation), Gary Rong (@rjl493456442)",
@@ -3389,6 +3391,20 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8247",
+      "title": "Ancestor-Indexed BALs",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Toni Wahrstätter (@nerolation)",
+      "created": "2026-05-03",
+      "requires": [
+        "7928"
+      ],
+      "fileName": "eip-8247.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8250",
       "title": "Keyed Nonces for Frame Transactions",
       "status": "Draft",
@@ -3397,8 +3413,10 @@
       "author": "Thomas Thiery (@soispoke), Toni Wahrstätter (@nerolation), lightclient (@lightclient), Vitalik Buterin (@vbuterin)",
       "created": "2026-04-16",
       "requires": [
-        "7623",
+        "7928",
+        "7976",
         "8037",
+        "8038",
         "8141"
       ],
       "fileName": "eip-8250.md"
@@ -3518,7 +3536,7 @@
       "proposalType": "EIP",
       "number": "8282",
       "title": "Builder Execution Requests",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "author": "Cayman (@wemeetagain), Nico Flaig <nflaig@protonmail.com>, Felix Lange <fjl@ethereum.org>, Justin Traglia <jtraglia@ethereum.org>",
@@ -9052,7 +9070,7 @@
       "proposalType": "ERC",
       "number": "7945",
       "title": "Confidential Transactions Supported Token",
-      "status": "Last Call",
+      "status": "Final",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Siyuan Zheng (@andrewcoder666) <zhengsiyuan.zsy@antgroup.com>, Zhe Han (@iampkuhz) <hanzhe.hz@ant-intl.com>, Xiaoyu Liu (@elizabethxiaoyu) <jiushi.lxy@antgroup.com>, Wenwei Ma (@madyinglight) <huiwei.mww@antgroup.com>, Jun Meng Tan (@chadxeth) <junmeng.t@antgroup.com>, Yuxiang Fu (@tmac4096) <kunfu.fyx@antgroup.com>, Kecheng Gao (@thanks-v-me-50) <gaokecheng.gkc@antgroup.com>, Alwin Ng Jun Wei (@alwinngjw) <alwin.ng@antgroup.com>, Chenxin Wang (@3235773541) <wcx465603@antgroup.com>, Xiang Gao (@GaoYiRu) <gaoxiang.gao@antgroup.com>, yuanshanhshan (@xunayuan) <yuanshanshan.yss@antgroup.com>, Hao Zou (@BruceZH0915) <situ.zh@antgroup.com>, Yanyi Liang <eason.lyy@antgroup.com>, Yuehua Zhang (@astroyhzcc) <ruoying.zyh@antgroup.com>",
@@ -9131,10 +9149,24 @@
         "20",
         "712",
         "721",
-        "2612",
-        "5564"
+        "5267"
       ],
       "fileName": "erc-7962.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "7963",
+      "title": "Oracle-Permissioned ERC-20 with ZK Proofs",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Siyuan Zheng (@andrewcoder666) <zhengsiyuan.zsy@antgroup.com>, Xiaoyu Liu (@elizabethxiaoyu) <jiushi.lxy@antgroup.com>, Wenwei Ma (@madyinglight) <huiwei.mww@antgroup.com>, Jun Meng Tan (@chadxgpt) <junmeng.t@antgroup.com>, Yuxiang Fu (@tmac4096) <kunfu.fyx@antgroup.com>, Kecheng Gao (@thanks-v-me-50) <gaokecheng.gkc@antgroup.com>, Alwin Ng Jun Wei (@alwinngjw) <alwin.ng@antgroup.com>, Chenxin Wang (@3235773541) <wcx465603@antgroup.com>, Xiang Gao (@GaoYiRu) <gaoxiang.gao@antgroup.com>, yuanshanhshan (@xunayuan) <yuanshanshan.yss@antgroup.com>, Hao Zou (@BruceZH0915) <situ.zh@antgroup.com>, Yanyi Liang <eason.lyy@antgroup.com>, Yuehua Zhang (@astroyhzcc) <ruoying.zyh@antgroup.com>",
+      "created": "2025-05-13",
+      "requires": [
+        "20",
+        "1967"
+      ],
+      "fileName": "erc-7963.md"
     },
     {
       "proposalType": "ERC",
@@ -9677,7 +9709,6 @@
         "165",
         "712",
         "1271",
-        "3668",
         "5267",
         "8001"
       ],
@@ -9849,7 +9880,7 @@
       "proposalType": "ERC",
       "number": "8153",
       "title": "Facet-Based Diamonds",
-      "status": "Last Call",
+      "status": "Final",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Nick Mudge (@mudgen)",
@@ -9878,13 +9909,29 @@
       "proposalType": "ERC",
       "number": "8167",
       "title": "Modular Dispatch Proxies",
-      "status": "Last Call",
+      "status": "Final",
       "type": "Standards Track",
       "category": "ERC",
       "author": "William Morriss (@wjmelements), Radek Svarz (@radeksvarz)",
       "created": "2026-02-16",
       "requires": [],
       "fileName": "erc-8167.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8176",
+      "title": "Descriptor Attestations for ERC-7730",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Bartosz Rozwarski (@llbartekll)",
+      "created": "2026-02-26",
+      "requires": [
+        "712",
+        "1271",
+        "7730"
+      ],
+      "fileName": "erc-8176.md"
     },
     {
       "proposalType": "ERC",
@@ -10539,5 +10586,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-10-05T08:48:27.411Z"
+  "fetchedAt": "2026-10-12T08:48:27.513Z"
 }
