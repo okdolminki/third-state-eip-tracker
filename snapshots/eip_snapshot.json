@@ -2307,7 +2307,7 @@
       "proposalType": "EIP",
       "number": "7979",
       "title": "Call and Return Opcodes for the EVM",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "Core",
       "author": "Greg Colvin (@gcolvin) <greg@colvin.org>, Martin Holst Swende (@holiman), Brooklyn Zelenka (@expede), John Max Skaller",
@@ -3081,9 +3081,9 @@
       "author": "Liyi Guo (@colinlyguo), Nicolas Consigny (@nconsigny)",
       "created": "2026-02-09",
       "requires": [
-        "2929",
         "3607",
-        "7702"
+        "7702",
+        "8038"
       ],
       "fileName": "eip-8151.md"
     },
@@ -3711,6 +3711,22 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8317",
+      "title": "Contract Storage Layout Descriptor Format",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Interface",
+      "author": "Alex Forshtat (@forshtat)",
+      "created": "2026-06-25",
+      "requires": [
+        "7201",
+        "7730",
+        "8042"
+      ],
+      "fileName": "eip-8317.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8321",
       "title": "Hash-Chain RANDAO",
       "status": "Draft",
@@ -3769,6 +3785,50 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8357",
+      "title": "EVM Verification Key Registry",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Luca Donno (@lucadonnoh)",
+      "created": "2026-07-30",
+      "requires": [
+        "161",
+        "1014",
+        "1559",
+        "7910",
+        "7928",
+        "7997",
+        "8025",
+        "8037",
+        "8288"
+      ],
+      "fileName": "eip-8357.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8358",
+      "title": "Net Gas Metering for Account Changes",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Dragan Rakita (@rakita), Charles Cooper (@charles-cooper)",
+      "created": "2026-07-26",
+      "requires": [
+        "161",
+        "2200",
+        "2780",
+        "2929",
+        "3529",
+        "7702",
+        "7708",
+        "8037",
+        "8038"
+      ],
+      "fileName": "eip-8358.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8360",
       "title": "TCREATE Opcode",
       "status": "Draft",
@@ -3799,6 +3859,18 @@
       "created": "2026-07-14",
       "requires": [],
       "fileName": "eip-8363.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8364",
+      "title": "SSZ Compact Multiproofs",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Zsolt Felföldi (@zsfelfoldi), Cayman (@wemeetagain), Lodekeeper (@lodekeeper)",
+      "created": "2026-08-04",
+      "requires": [],
+      "fileName": "eip-8364.md"
     },
     {
       "proposalType": "EIP",
@@ -3861,6 +3933,20 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8374",
+      "title": "Persist Warm Access Sets Across Reverts",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Dragan Rakita (@rakita)",
+      "created": "2026-08-06",
+      "requires": [
+        "2929"
+      ],
+      "fileName": "eip-8374.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8379",
       "title": "Top-up Sync",
       "status": "Draft",
@@ -3897,6 +3983,23 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8397",
+      "title": "Frame Authenticator Signatures",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Taek (@leekt)",
+      "created": "2026-08-26",
+      "requires": [
+        "2929",
+        "7702",
+        "7928",
+        "8141"
+      ],
+      "fileName": "eip-8397.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8411",
       "title": "Fast Execution Payload Broadcast",
       "status": "Draft",
@@ -3908,6 +4011,21 @@
         "7732"
       ],
       "fileName": "eip-8411.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8433",
+      "title": "Retire 0x00 Validators",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "NC (@ensi321)",
+      "created": "2026-09-28",
+      "requires": [
+        "7251",
+        "8365"
+      ],
+      "fileName": "eip-8433.md"
     },
     {
       "proposalType": "EIP",
@@ -4083,13 +4201,16 @@
     {
       "proposalType": "ERC",
       "number": "1613",
-      "title": "Gas stations network",
+      "title": "Gas Stations Network",
       "status": "Draft",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Yoav Weiss (@yoavw), Dror Tirosh (@drortirosh), Alex Forshtat (@forshtat), Shahaf Nacson (@shahafn)",
       "created": "2018-11-18",
-      "requires": [],
+      "requires": [
+        "712",
+        "2771"
+      ],
       "fileName": "erc-1613.md"
     },
     {
@@ -10108,6 +10229,18 @@
     },
     {
       "proposalType": "ERC",
+      "number": "8259",
+      "title": "AI Agent Identity & Threat Registry",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Ibonon (@ibonon)",
+      "created": "2026-05-07",
+      "requires": [],
+      "fileName": "erc-8259.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "8262",
       "title": "Zero-Knowledge Compliance Oracle",
       "status": "Draft",
@@ -10264,6 +10397,24 @@
     },
     {
       "proposalType": "ERC",
+      "number": "8348",
+      "title": "Financial Lease",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Javier Mateos (@javierpmateos)",
+      "created": "2026-07-23",
+      "requires": [
+        "20",
+        "165",
+        "721",
+        "4907",
+        "8325"
+      ],
+      "fileName": "erc-8348.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "8349",
       "title": "Index-Based Multi-Facet Proxy",
       "status": "Draft",
@@ -10313,6 +10464,22 @@
     },
     {
       "proposalType": "ERC",
+      "number": "8376",
+      "title": "Token Launch Abuse Detection and Remediation",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Leigh Cronian (@cybercentry) <leigh.cronian@cybercentry.co.uk>, Chris Johnson <chris@virtuals.io>",
+      "created": "2026-08-07",
+      "requires": [
+        "20",
+        "165",
+        "214"
+      ],
+      "fileName": "erc-8376.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "8377",
       "title": "Reference-Relative Slippage Bounds",
       "status": "Draft",
@@ -10352,6 +10519,39 @@
         "712"
       ],
       "fileName": "erc-8410.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8436",
+      "title": "Agent Collective Decision Framework",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Gary Yang (@garyyang-finchip)",
+      "created": "2026-10-04",
+      "requires": [
+        "165",
+        "712",
+        "1271",
+        "6372"
+      ],
+      "fileName": "erc-8436.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8444",
+      "title": "Agentic Resource Discovery (ARD) Onchain",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Gary Yang (@garyyang-finchip)",
+      "created": "2026-10-12",
+      "requires": [
+        "165",
+        "712",
+        "1271"
+      ],
+      "fileName": "erc-8444.md"
     },
     {
       "proposalType": "ERC",
@@ -10586,5 +10786,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-10-12T08:48:27.513Z"
+  "fetchedAt": "2026-10-19T08:48:27.600Z"
 }
