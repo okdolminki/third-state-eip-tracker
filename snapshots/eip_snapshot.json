@@ -576,7 +576,7 @@
     {
       "proposalType": "EIP",
       "number": "2780",
-      "title": "Resource-based intrinsic transaction gas",
+      "title": "Resource-Based Intrinsic Transaction Gas",
       "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
@@ -1546,7 +1546,7 @@
     {
       "proposalType": "EIP",
       "number": "7688",
-      "title": "Forward compatible consensus data structures",
+      "title": "Forward Compatible Consensus Data Structures",
       "status": "Review",
       "type": "Standards Track",
       "category": "Core",
@@ -1596,7 +1596,7 @@
     {
       "proposalType": "EIP",
       "number": "7708",
-      "title": "ETH transfers emit a log",
+      "title": "ETH Transfers Emit a Log",
       "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
@@ -1645,7 +1645,9 @@
       "category": "Core",
       "author": "Francesco D'Amato <francesco.damato@ethereum.org>, Nico Flaig <nflaig@protonmail.com>, Barnabé Monnot <barnabe.monnot@ethereum.org>, Michael Neuder <michael.neuder@ethereum.org>, Potuz (@potuz), Justin Traglia <jtraglia@ethereum.org>, Terence Tsao <ttsao@offchainlabs.com>",
       "created": "2024-06-28",
-      "requires": [],
+      "requires": [
+        "7685"
+      ],
       "fileName": "eip-7732.md"
     },
     {
@@ -1885,7 +1887,7 @@
     {
       "proposalType": "EIP",
       "number": "7843",
-      "title": "SLOTNUM opcode",
+      "title": "SLOTNUM Opcode",
       "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
@@ -2005,7 +2007,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Alex Forshtat (@forshtat), Shahaf Nacson (@shahafn), Dror Tirosh (@drortirosh), Yoav Weiss (@yoavw), Fredrik Svantes (@0xfredrik), Daniil Ankushin (@AnkushinDaniil)",
+      "author": "Alex Forshtat (@forshtat), Shahaf Nacson (@shahafn), Dror Tirosh (@drortirosh), Yoav Weiss (@yoavw), Fredrik Svantes (@0xfredrik), Daniil Ankushin (@AnkushinDaniil), lightclient (@lightclient)",
       "created": "2025-02-21",
       "requires": [
         "2929",
@@ -2112,7 +2114,7 @@
       "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Toni Wahrstätter (@nerolation), Dankrad Feist (@dankrad), Francesco D`Amato (@fradamt), Jochem Brouwer (@jochem-brouwer), Ignacio Hagopian (@jsign), Felipe Selmo (@fselmo), Rahul (@raxhvl), Stefan (@qu0b)",
+      "author": "Toni Wahrstätter (@nerolation), Dankrad Feist (@dankrad), Francesco D'Amato (@fradamt), Jochem Brouwer (@jochem-brouwer), Ignacio Hagopian (@jsign), Felipe Selmo (@fselmo), Rahul (@raxhvl), Stefan (@qu0b)",
       "created": "2025-03-31",
       "requires": [],
       "fileName": "eip-7928.md"
@@ -2277,7 +2279,7 @@
     {
       "proposalType": "EIP",
       "number": "7975",
-      "title": "eth/70 - partial block receipt lists",
+      "title": "eth/70 - Partial Block Receipt Lists",
       "status": "Last Call",
       "type": "Standards Track",
       "category": "Networking",
@@ -2451,7 +2453,7 @@
     {
       "proposalType": "EIP",
       "number": "8024",
-      "title": "Backward compatible SWAPN, DUPN, EXCHANGE",
+      "title": "Backward Compatible SWAPN, DUPN, EXCHANGE",
       "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
@@ -2534,7 +2536,7 @@
     {
       "proposalType": "EIP",
       "number": "8038",
-      "title": "State-access gas cost update",
+      "title": "State-Access Gas Cost Update",
       "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
@@ -2548,7 +2550,7 @@
     {
       "proposalType": "EIP",
       "number": "8045",
-      "title": "Exclude slashed validators from proposing",
+      "title": "Exclude Slashed Validators from Proposing",
       "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
@@ -2660,7 +2662,7 @@
     {
       "proposalType": "EIP",
       "number": "8061",
-      "title": "Increase exit and consolidation churn",
+      "title": "Increase Exit and Consolidation Churn",
       "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
@@ -3246,9 +3248,10 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Carl Beekhuizen (@carlbeek)",
+      "author": "Carl Beekhuizen (@carlbeek), Barnabé Monnot (@barnabemonnot), Barnabas Busa (@barnabasbusa)",
       "created": "2026-03-17",
       "requires": [
+        "7843",
         "7892"
       ],
       "fileName": "eip-8198.md"
@@ -3525,6 +3528,7 @@
       "requires": [
         "7623",
         "7702",
+        "7825",
         "7928",
         "7976",
         "7981",
@@ -3841,7 +3845,10 @@
         "684",
         "1014",
         "1153",
+        "2681",
         "3529",
+        "6780",
+        "7708",
         "7928",
         "8037",
         "8038"
@@ -4000,6 +4007,20 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8408",
+      "title": "eth/73 - Indexed Cell Requests",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Networking",
+      "author": "Vikram Bhattacharjee (@0xrukimedo)",
+      "created": "2026-09-01",
+      "requires": [
+        "8070"
+      ],
+      "fileName": "eip-8408.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8411",
       "title": "Fast Execution Payload Broadcast",
       "status": "Draft",
@@ -4011,6 +4032,21 @@
         "7732"
       ],
       "fileName": "eip-8411.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8425",
+      "title": "Quantum Freeze and Account Recovery",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Liyi Guo (@colinlyguo)",
+      "created": "2026-09-27",
+      "requires": [
+        "2929",
+        "7702"
+      ],
+      "fileName": "eip-8425.md"
     },
     {
       "proposalType": "EIP",
@@ -4026,6 +4062,38 @@
         "8365"
       ],
       "fileName": "eip-8433.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8435",
+      "title": "Last-Written Block in PBT Leaves",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Iman Kalyan Chakraborty (@astrion-coder), Wei Han Ng (@weiihann)",
+      "created": "2026-10-04",
+      "requires": [
+        "7954",
+        "8037",
+        "8297"
+      ],
+      "fileName": "eip-8435.md"
+    },
+    {
+      "proposalType": "EIP",
+      "number": "8450",
+      "title": "Post-Quantum Validator Key Registry",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Thomas Coratger (@tcoratger), Kevaundray Wedderburn (@kevaundray), Tom Wambsgans (@TomWambsgans), Justin Drake (@JustinDrake)",
+      "created": "2026-10-15",
+      "requires": [
+        "7002",
+        "7685",
+        "7916"
+      ],
+      "fileName": "eip-8450.md"
     },
     {
       "proposalType": "EIP",
@@ -9092,7 +9160,11 @@
       "created": "2025-03-01",
       "requires": [
         "5792",
-        "7702"
+        "7702",
+        "7906",
+        "8141",
+        "8250",
+        "8272"
       ],
       "fileName": "erc-7902.md"
     },
@@ -9278,7 +9350,7 @@
       "proposalType": "ERC",
       "number": "7963",
       "title": "Oracle-Permissioned ERC-20 with ZK Proofs",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Siyuan Zheng (@andrewcoder666) <zhengsiyuan.zsy@antgroup.com>, Xiaoyu Liu (@elizabethxiaoyu) <jiushi.lxy@antgroup.com>, Wenwei Ma (@madyinglight) <huiwei.mww@antgroup.com>, Jun Meng Tan (@chadxgpt) <junmeng.t@antgroup.com>, Yuxiang Fu (@tmac4096) <kunfu.fyx@antgroup.com>, Kecheng Gao (@thanks-v-me-50) <gaokecheng.gkc@antgroup.com>, Alwin Ng Jun Wei (@alwinngjw) <alwin.ng@antgroup.com>, Chenxin Wang (@3235773541) <wcx465603@antgroup.com>, Xiang Gao (@GaoYiRu) <gaoxiang.gao@antgroup.com>, yuanshanhshan (@xunayuan) <yuanshanshan.yss@antgroup.com>, Hao Zou (@BruceZH0915) <situ.zh@antgroup.com>, Yanyi Liang <eason.lyy@antgroup.com>, Yuehua Zhang (@astroyhzcc) <ruoying.zyh@antgroup.com>",
@@ -10522,6 +10594,24 @@
     },
     {
       "proposalType": "ERC",
+      "number": "8426",
+      "title": "Wallet Pass Extension for NFTs",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Hunt (@huntclubhero) <hunt@halldon.com>",
+      "created": "2026-08-07",
+      "requires": [
+        "165",
+        "721",
+        "1271",
+        "4361",
+        "6492"
+      ],
+      "fileName": "erc-8426.md"
+    },
+    {
+      "proposalType": "ERC",
       "number": "8436",
       "title": "Agent Collective Decision Framework",
       "status": "Draft",
@@ -10786,5 +10876,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-10-19T08:48:27.600Z"
+  "fetchedAt": "2026-10-26T08:48:27.053Z"
 }
