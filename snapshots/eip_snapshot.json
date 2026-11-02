@@ -2613,9 +2613,14 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
-      "author": "Maria Silva (@misilva73)",
+      "author": "Maria Silva (@misilva73), Łukasz Rozmej (@LukaszRozmej)",
       "created": "2025-10-17",
-      "requires": [],
+      "requires": [
+        "150",
+        "2200",
+        "2780",
+        "8037"
+      ],
       "fileName": "eip-8053.md"
     },
     {
@@ -4082,15 +4087,15 @@
     {
       "proposalType": "EIP",
       "number": "8450",
-      "title": "Post-Quantum Validator Key Registry",
+      "title": "Post-Quantum Consensus Key Registry",
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
       "author": "Thomas Coratger (@tcoratger), Kevaundray Wedderburn (@kevaundray), Tom Wambsgans (@TomWambsgans), Justin Drake (@JustinDrake)",
       "created": "2026-10-15",
       "requires": [
-        "7002",
-        "7685",
+        "7495",
+        "7732",
         "7916"
       ],
       "fileName": "eip-8450.md"
@@ -9368,7 +9373,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "ERC",
-      "author": "Ernesto García (@ernestognw)",
+      "author": "Ernesto García (@ernestognw), Hadrien Croubois (@Amxx)",
       "created": "2025-06-05",
       "requires": [
         "712",
@@ -10247,6 +10252,7 @@
       "author": "Prem Makeig (@nxt3d)",
       "created": "2026-04-05",
       "requires": [
+        "7930",
         "8004"
       ],
       "fileName": "erc-8217.md"
@@ -10315,7 +10321,7 @@
       "proposalType": "ERC",
       "number": "8262",
       "title": "Zero-Knowledge Compliance Oracle",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
       "author": "DROO (@DROOdotFOO), Bloo (@bloo-berries), Merkle Bonsai (@Jabher), Jan (@sssngth)",
@@ -10457,7 +10463,7 @@
       "proposalType": "ERC",
       "number": "8330",
       "title": "Subject-Linked NAV Snapshot Oracle",
-      "status": "Last Call",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Chris Turner <c.turner@kula.com>, David Hay (@david-hay), Reagan Simpson (@krumg111), Collins Musyimi (@Musyimi97)",
@@ -10626,6 +10632,21 @@
         "6372"
       ],
       "fileName": "erc-8436.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8441",
+      "title": "Hybrid post-quantum stealth address scheme",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "namnc (@namnc), Pierre (@dmpierre), kassandra.eth (@kassandraoftroy)",
+      "created": "2026-08-28",
+      "requires": [
+        "5564",
+        "6538"
+      ],
+      "fileName": "erc-8441.md"
     },
     {
       "proposalType": "ERC",
@@ -10876,5 +10897,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-10-26T08:48:27.053Z"
+  "fetchedAt": "2026-11-02T08:48:27.423Z"
 }
