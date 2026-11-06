@@ -1,9 +1,9 @@
 ---
 date: 2026-11-06
-roadmap_ids: [FM-4, FM-6]
-source: FORUM
-update_type: DISCUSSION
-importance: MEDIUM
+roadmap_ids: [PL-3, PL-4, FM-4, FM-6]
+source: GOV_BRIDGE
+update_type: PROGRESS
+importance: High
 link: "https://gov.uniswap.org/t/rfc-upgrade-volatilepair-hook-and-update-x-layer-releaser/26337"
 note_type: unification_update
 auto_generated: true
@@ -11,14 +11,14 @@ auto_generated: true
 
 # [RFC] Upgrade VolatilePair hook and update X Layer releaser
 
-> 출처: FORUM | 2026-11-06 | 관련 항목: [[FM-4]], [[FM-6]]
+> 출처: GOV_BRIDGE | 2026-11-06 | 관련 항목: [[PL-3]], [[PL-4]], [[FM-4]], [[FM-6]]
 
 ## 요약
-v4 VolatilePair 훅의 임시 수수료 적용 블록 수 제한 업그레이드가 제안되었습니다.
-X Layer의 프로토콜 수수료 미소각 문제를 해결하기 위해 AggLayerReleaser 도입을 추진합니다.
+Uniswap v4 VolatilePair 훅 개선 및 X Layer 프로토콜 수수료 릴리서 업데이트 제안.
+LP 수익성 증대, 스왑 유동성 확보 및 멀티체인 인프라 유지보수 강화가 기대됩니다.
 
 ## 시그널
-v4 dynamic-fee 훅 매커니즘을 정밀화하고 X Layer L2 수수료 수집 및 UNI 소각 메커니즘을 보완하는 거버넌스 안건입니다.
+WATCH
 
 ---
 [원문 보기](https://gov.uniswap.org/t/rfc-upgrade-volatilepair-hook-and-update-x-layer-releaser/26337)
