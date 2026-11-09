@@ -4086,6 +4086,20 @@
     },
     {
       "proposalType": "EIP",
+      "number": "8449",
+      "title": "Engine API Proposal Lookahead",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "author": "Csaba Kiraly (@cskiraly)",
+      "created": "2026-10-19",
+      "requires": [
+        "7917"
+      ],
+      "fileName": "eip-8449.md"
+    },
+    {
+      "proposalType": "EIP",
       "number": "8450",
       "title": "Post-Quantum Consensus Key Registry",
       "status": "Draft",
@@ -4096,7 +4110,8 @@
       "requires": [
         "7495",
         "7732",
-        "7916"
+        "7916",
+        "8282"
       ],
       "fileName": "eip-8450.md"
     },
@@ -9724,7 +9739,7 @@
       "status": "Draft",
       "type": "Standards Track",
       "category": "ERC",
-      "author": "Prem Makeig (@nxt3d), Rafael Abuawad (@rafael-abuawad)",
+      "author": "Prem Makeig (@nxt3d), Rafael Abuawad (@rabuawad)",
       "created": "2025-10-10",
       "requires": [
         "20",
@@ -10897,5 +10912,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-11-02T08:48:27.423Z"
+  "fetchedAt": "2026-11-09T08:48:27.766Z"
 }
