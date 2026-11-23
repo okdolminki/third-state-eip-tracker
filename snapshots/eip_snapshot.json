@@ -2968,9 +2968,12 @@
       "created": "2025-01-21",
       "requires": [
         "2028",
+        "2780",
+        "2930",
         "4844",
         "7623",
         "7702",
+        "7825",
         "7976",
         "7981"
       ],
@@ -3531,12 +3534,15 @@
       "author": "Toni Wahrstätter (@nerolation)",
       "created": "2026-05-23",
       "requires": [
+        "2780",
         "7623",
         "7702",
         "7825",
         "7928",
         "7976",
         "7981",
+        "8037",
+        "8038",
         "8131"
       ],
       "fileName": "eip-8279.md"
@@ -9371,7 +9377,7 @@
       "proposalType": "ERC",
       "number": "7963",
       "title": "Oracle-Permissioned ERC-20 with ZK Proofs",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Siyuan Zheng (@andrewcoder666) <zhengsiyuan.zsy@antgroup.com>, Xiaoyu Liu (@elizabethxiaoyu) <jiushi.lxy@antgroup.com>, Wenwei Ma (@madyinglight) <huiwei.mww@antgroup.com>, Jun Meng Tan (@chadxgpt) <junmeng.t@antgroup.com>, Yuxiang Fu (@tmac4096) <kunfu.fyx@antgroup.com>, Kecheng Gao (@thanks-v-me-50) <gaokecheng.gkc@antgroup.com>, Alwin Ng Jun Wei (@alwinngjw) <alwin.ng@antgroup.com>, Chenxin Wang (@3235773541) <wcx465603@antgroup.com>, Xiang Gao (@GaoYiRu) <gaoxiang.gao@antgroup.com>, yuanshanhshan (@xunayuan) <yuanshanshan.yss@antgroup.com>, Hao Zou (@BruceZH0915) <situ.zh@antgroup.com>, Yanyi Liang <eason.lyy@antgroup.com>, Yuehua Zhang (@astroyhzcc) <ruoying.zyh@antgroup.com>",
@@ -10560,7 +10566,7 @@
       "proposalType": "ERC",
       "number": "8376",
       "title": "Token Launch Abuse Detection and Remediation",
-      "status": "Draft",
+      "status": "Review",
       "type": "Standards Track",
       "category": "ERC",
       "author": "Leigh Cronian (@cybercentry) <leigh.cronian@cybercentry.co.uk>, Chris Johnson <chris@virtuals.io>",
@@ -10568,7 +10574,8 @@
       "requires": [
         "20",
         "165",
-        "214"
+        "214",
+        "7997"
       ],
       "fileName": "erc-8376.md"
     },
@@ -10679,6 +10686,21 @@
         "1271"
       ],
       "fileName": "erc-8444.md"
+    },
+    {
+      "proposalType": "ERC",
+      "number": "8501",
+      "title": "Generative Engine Optimization Framework",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "ERC",
+      "author": "Gary Yang (@garyyang-finchip)",
+      "created": "2026-11-14",
+      "requires": [
+        "165",
+        "6372"
+      ],
+      "fileName": "erc-8501.md"
     },
     {
       "proposalType": "ERC",
@@ -10913,5 +10935,5 @@
       "fileName": "rip-7993.md"
     }
   ],
-  "fetchedAt": "2026-11-16T08:48:27.712Z"
+  "fetchedAt": "2026-11-23T08:48:27.086Z"
 }
